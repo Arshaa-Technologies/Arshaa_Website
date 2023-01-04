@@ -1,0 +1,464 @@
+/* Scss Document */
+@import url("../fonts/avenir/stylesheet.css");
+/*Font Families*/
+.bg-gradient {
+  background: -webkit-gradient(linear, left top, right top, from(#496c32), to(#496c32));
+  background: linear-gradient(to right, #496c32 0%, #496c32 100%);
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+  font-weight: normal;
+}
+
+body {
+  font: 16px/1.5 "avenirregular", "sans-serif";
+}
+
+a {
+  text-decoration: none;
+}
+
+a.btn {
+  background-color: #FF7143;
+  color: #ffffff;
+  padding: 10px 20px;
+  font: 16px/24px "avenirregular", "sans-serif";
+  border-radius: 5px;
+  -webkit-transition: all 0.7s ease;
+  transition: all 0.7s ease;
+}
+
+a.btn:hover {
+  background-color: #496c32;
+}
+
+h1 {
+  font: 48px/1.5 "avenirblack", "sans-serif";
+  color: #18191F;
+}
+
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
+  margin: 35px 0px;
+}
+
+.row .col.start-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+
+.row.v_center {
+  /*justify-content: center;*/
+  /* align-self: center;    <---- REMOVE */
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  /* <---- NEW    */
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+.center {
+  width: calc(100% - 30px);
+  max-width: 1100px;
+  margin: 0px auto;
+}
+
+header {
+  position: absolute;
+  width: 100%;
+  top: 5px;
+  z-index: 999;
+}
+
+header .center .row {
+  margin: 0px;
+}
+
+header .center .row .col {
+  padding: 10px 0;
+}
+
+header .center .row .col .menu-btn {
+  display: none;
+}
+
+header .center .row .col nav ul {
+  margin-left: 80px;
+  clear: both;
+  max-height: 0;
+  -webkit-transition: max-height .2s ease-out;
+  transition: max-height .2s ease-out;
+}
+
+header .center .row .col nav ul li {
+  margin: 0px 15px;
+  display: inline-block;
+}
+
+header .center .row .col nav ul li a {
+  padding: 0px 3px;
+  color: #18191F;
+  position: relative;
+  -webkit-transition: all 0.7s ease;
+  transition: all 0.7s ease;
+}
+
+header .center .row .col nav ul li a:after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  background-color: #f9a61d;
+  bottom: -6px;
+  -webkit-transition: all 0.7s ease;
+  transition: all 0.7s ease;
+}
+
+header .center .row .col nav ul li a:hover {
+  color: #f9a61d;
+}
+
+header .center .row .col nav ul li a:hover:after {
+  width: 100%;
+}
+
+.banner .center {
+  width: 100%;
+  max-width: 100%;
+}
+
+.banner .row {
+  margin: 0px;
+  min-height: 850px;
+}
+
+.banner .row .col {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  position: relative;
+}
+
+.banner .row .col .bannertext {
+  max-width: 550px;
+  position: absolute;
+  top: 50%;
+  right: 0px;
+  -webkit-transform: translate(0%, -50%);
+          transform: translate(0%, -50%);
+}
+
+.banner .row .col .bannertext h1 {
+  font-size: 55px;
+  line-height: 72px;
+}
+
+.banner .row .col .bannertext p {
+  margin-right: 150px;
+  padding: 25px 0px;
+}
+
+.banner .row .col .bannertext a {
+  display: inline-block;
+  background-color: #FF7143;
+}
+
+.whatwedo {
+  background: #F4F5F7;
+  padding: 70px 0 100px 0;
+  background-image: url(../images/circle3.png);
+  background-position: 0 90%;
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+.whatwedo .center .row .col {
+  position: relative;
+}
+
+.whatwedo .center .row .col .bg_img {
+  position: absolute;
+}
+
+.whatwedo .center .row .col .bg_img.dots {
+  left: -50px;
+  z-index: 1;
+}
+
+.whatwedo .center .row .col .bg_img.circle {
+  top: -50px;
+  right: -124px;
+  z-index: 1;
+}
+
+.whatwedo .center .row .col .boxset {
+  z-index: 9;
+  position: relative;
+  margin-top: 38px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 32px;
+}
+
+.whatwedo .center .row .col .boxset .box h3 {
+  font: 24px/32px "avenirheavy", "sans-serif";
+  color: #FF7143;
+  margin: 10px 0 0px 0;
+}
+
+.whatwedo .center .row .col .boxset .box h4 {
+  font: 16px/26px "avenirheavy", "sans-serif";
+  margin: 0px 0 30px 0;
+}
+
+.whatwedo .center .row .col .boxset .box p {
+  font: 16px/26px "avenirregular", "sans-serif";
+}
+
+.career {
+  background-image: url(../images/circle.png);
+  background-position: 100% 0px;
+  background-repeat: no-repeat;
+  background-size: 240px;
+}
+
+.career .center .row .col {
+  position: relative;
+}
+
+.career .center .row .col .bg_img {
+  position: absolute;
+}
+
+.career .center .row .col .bg_img.dots {
+  bottom: 53px;
+  left: -53px;
+  z-index: 1;
+}
+
+.career .center .row .col .bg_img.circle {
+  top: -50px;
+  right: -150px;
+  z-index: 1;
+}
+
+.career .center .row .col .boxset {
+  z-index: 9;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 30px;
+  margin-bottom: 90px;
+}
+
+.career .center .row .col .boxset .box {
+  background-color: #ffffff;
+  -ms-flex-preferred-size: calc(25% - 70px);
+      flex-basis: calc(25% - 70px);
+  padding: 25px 15px 75px 25px;
+  position: relative;
+  -webkit-box-shadow: 0px 10px 20px rgba(41, 41, 42, 0.07);
+          box-shadow: 0px 10px 20px rgba(41, 41, 42, 0.07);
+  border-radius: 10px;
+}
+
+.career .center .row .col .boxset .box h3 {
+  font: 24px/32px "avenirblack", "sans-serif";
+}
+
+.career .center .row .col .boxset .box h3 span {
+  display: block;
+}
+
+.career .center .row .col .boxset .box p {
+  margin: 10px 0;
+}
+
+.career .center .row .col .boxset .box a {
+  position: absolute;
+  bottom: 25px;
+}
+
+.career .center .row .col p.reach a {
+  color: #FF7143;
+  font: 16px/26px "avenirmedium", "sans-serif";
+}
+
+.career .center .row .col p.reach a:hover {
+  color: #f9a61d;
+}
+
+.about {
+  margin-bottom: 200px;
+}
+
+.about .bg_img {
+  background-image: url("../images/about.jpg");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  height: 500px;
+  background-size: cover;
+}
+
+.about .center .row .col .boxset {
+  margin-top: -180px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 50px;
+}
+
+.about .center .row .col .boxset .box {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  padding-top: 70px;
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+}
+
+.about .center .row .col .boxset .box:last-child {
+  -ms-flex-preferred-size: calc(50% - 140px);
+      flex-basis: calc(50% - 140px);
+  padding: 70px;
+  background-color: #ffffff;
+  font: 18px/28px "avenirregular", "sans-serif";
+  position: relative;
+}
+
+.about .center .row .col .boxset .box:last-child P {
+  font: 18px/32px "avenirregular", "sans-serif";
+  margin-bottom: 15px;
+}
+
+.about .center .row .col .boxset .box:last-child a {
+  position: absolute;
+  color: #FF7143;
+  bottom: 20px;
+  font: 16px/24px "avenirregular", "sans-serif";
+}
+
+.about .center .row .col .boxset .box:last-child a:before {
+  background-image: url("../images/linkedin.png");
+  background-position: center;
+  background-size: cover;
+  content: "";
+  width: 14px;
+  height: 14px;
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.about .center .row .col .boxset .box:last-child a:hover {
+  color: #496c32;
+}
+
+.about .center .row .col .boxset .box h3 {
+  font: 40px/54px "avenirheavy", "sans-serif";
+}
+
+.about .center .row .col .boxset .box h4 {
+  font: 20px/30px "avenirheavy", "sans-serif";
+  position: relative;
+}
+
+.about .center .row .col .boxset .box h4:before {
+  content: "";
+  width: 20px;
+  height: 20px;
+  background-color: #F47D20;
+  position: absolute;
+  left: 0px;
+  top: -40px;
+  border-radius: 10px;
+}
+
+.about .center .row .col .boxset .box h4:after {
+  content: "";
+  background-image: url("../images/line.png");
+  background-repeat: no-repeat;
+  height: 2px;
+  width: 60%;
+  position: absolute;
+  left: 40px;
+  top: -30px;
+}
+
+footer {
+  background-color: #000000;
+  padding: 64px 0 20px 0;
+  color: #ffffff;
+  font: 14px/19px "avenirregular", "sans-serif";
+}
+
+footer .center .row {
+  max-width: 970px;
+  gap: 50px;
+}
+
+footer .center .row .col {
+  min-width: 250px;
+}
+
+footer .center .row .col p {
+  margin: 30px 0;
+}
+
+footer .center .row .col p span {
+  display: block;
+}
+
+footer .center .row .col h4 {
+  font: 20px/30px "avenirheavy", "sans-serif";
+  color: #f9a61d;
+}
+
+footer .center .row .col form .form-group {
+  margin-bottom: 5px;
+}
+
+footer .center .row .col form .form-group label {
+  display: block;
+  margin-bottom: 2px;
+}
+
+footer .center .row .col form .form-group input[type="text"], footer .center .row .col form .form-group input[type="email"], footer .center .row .col form .form-group textarea {
+  width: 205px;
+  padding: 5px;
+}
+
+footer .center .row .col form .form-group input[type="submit"] {
+  margin-top: 20px;
+  background-color: #FF7143;
+  color: #ffffff;
+  padding: 8px 20px;
+  font: 16px/24px "avenirregular", "sans-serif";
+  border: 0px;
+  cursor: pointer;
+  border-radius: 5px;
+  -webkit-transition: all 0.7s ease;
+  transition: all 0.7s ease;
+}
+
+footer .center .row .col form .form-group input[type="submit"]:hover {
+  background-color: #496c32;
+}
+/*# sourceMappingURL=default.css.map */
