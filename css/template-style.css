@@ -26,15 +26,15 @@ h5, .h5 {font-size: 1rem;}
 h6, .h6 {font-size: 0.9rem;}
 h1.headline, .h1.headline {
   font-size: 3.8rem; 
-  letter-spacing: -2.5px;
+  letter-spacing: -1.5px;
 }
 h2.headline, .h2.headline {
   font-size: 3rem; 
-  letter-spacing: -2px; 
+  letter-spacing: -1px; 
 }
 h3.headline, .h3.headline {
   font-size: 2.6rem;
-  letter-spacing: -2px;
+  letter-spacing: -1px;
 }
 h4.headline, .h4.headline {
   font-size: 2.4rem;
@@ -42,11 +42,11 @@ h4.headline, .h4.headline {
 }
 h5.headline, .h5.headline {
   font-size: 2.2rem;
-  letter-spacing: -1.4px; 
+  letter-spacing: -0.4px; 
 }
 h6.headline, .h6.headline {
   font-size: 2rem;
-  letter-spacing: -1.3px;
+  letter-spacing: -0.3px;
 }
 .text-size-12, .text-xxl-size-12 {
   font-size: 12px !important;
@@ -1198,7 +1198,7 @@ display:none;
 }
 a.tab-label, a.tab-label:link, a.tab-label:visited,
 .background-white a.tab-label, .background-white a.tab-label:link, .background-white a.tab-label:visited, .background-white a.tab-label:hover {
-  background: #002633 none repeat scroll 0 0;
+  background: #44aacc none repeat scroll 0 0;
   color: rgba(255,255,255, 0.75);
 }
 a.tab-label, a.tab-label:link, a.tab-label:visited, a.tab-label:hover,
@@ -2012,7 +2012,7 @@ p {
   margin-bottom: 20px;
 }
 body, p { 
-  color: #020e1e;
+  color: #838586;
   font-weight: 700;
   font-family: 'Lato', sans-serif;
   font-size: 0.9rem;  
@@ -2038,7 +2038,11 @@ h1, .h1 {
 h2, h3, h4, h5, h6, .h2, .h3, .h4, .h5, .h6 {
   font-weight: 300;
   font-family: 'Lato', sans-serif;
-  line-height: 1.2!important;
+  line-height: 1.8!important;
+}
+.h5{
+  line-height: 2!important;
+  color: #00B5A6;
 }
 h1.headline, .h1.headline {
   letter-spacing: 19px;
@@ -2865,4 +2869,211 @@ i.icon-circle {
   line-height: 0;
   overflow: hidden;
   visibility: hidden;
+}
+ 
+.section-background{
+  background-color: #020e1c;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-image: url("/images/cyberSecurityHome.jpg");
+  background-repeat: no-repeat;
+  color: #FFFFFF;
+  /* background: url(/images/cyberSecurityHome.jpg)no-repeat; */
+}
+/*
+.title1-color{
+  color: rgb(218, 80, 30);
+  font-weight: 500;
+  padding-top: 15px;
+}
+.section-text-style{
+ padding-left: 80px;
+ padding-right: 80px;
+ color:#e0e0e0;
+ letter-spacing: 0.5px;
+}
+.tab-content{
+  background-color: #011922;
+  padding: 10px;
+  justify-content: center;
+}
+.tab-header-style{
+  color: #074d6e;
+  font-weight: 500;
+}
+.card{
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  margin: 30px;
+}
+@media (min-width:576px) {
+  .tab.content{
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-bottom: 20px
+  }
+}
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.centered {
+  position: absolute;
+  top: 35%;
+  left: 60%;
+  font-weight: 600px;
+  font-size:300%;
+  color: white;
+  line-height: 1.2;
+  letter-spacing: 0.5px;
+  transform: translate(-50%, -50%);
+}
+.text{
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  font-weight: 300px;
+  font-size:150%;
+  color: white;
+  line-height: 1.2;
+  letter-spacing: 0.5px;
+  transform: translate(-50%, -50%);
+}
+.header-text{
+  font-weight: 250px;
+  font-size:150%;
+  padding:1%;
+  text-align: left;
+}
+*/
+.backgroundImage{
+   background: url(/images/cyberSecurityHome.jpg)no-repeat; 
+  color: #e0e0e0;
+} 
+/* .headers{
+  color: white;
+  font-weight: 400;
+  padding:1%;
+} */
+.headers h1{
+  color: rgb(255, 255, 255);
+  font-weight: 400;
+  padding:1%;
+  padding-top: 3%;
+}
+.headers h3{
+  color: rgb(194, 188, 188);
+  font-weight: 400;
+  padding:1%;
+}
+.whoWeAre h4{
+  color: rgb(246, 110, 56);
+  font-weight: 600;
+  text-align: left;
+}
+.card-header{
+  background-color: #ffffff;
+  color: rgb(5, 5, 5);
+  font-weight: 600;
+}
+.card-content{
+  text-align: left;
+  padding:10px;
+  line-height: 20;
+}
+.card-text-inner{
+  color: rgb(30, 29, 29);
+  text-align: left;
+}
+.card:hover{
+  cursor: pointer;
+  transition: all 0.3s;
+  box-shadow:-2px 2px 22px -11px rgba(244, 241, 241, 0.75);
+  -webkit-box-shadow:-2px 2px 22px -11px rgba(241, 236, 236, 0.75);
+  -moz-box-shadow:-2px 2px 22px -11px rgba(228, 226, 226, 0.75);
+}
+.services-offer h4{
+  color: rgb(246, 110, 56);
+  font-weight: 600;
+  text-align: left;
+}
+.accordion-button collapsed{
+  font-weight: 500;
+}
+.strategy h2{
+  color: rgb(251, 250, 249);
+  font-weight: 500;
+  text-align: left;
+}
+.inline{
+  color: rgb(220, 218, 218);
+  font-weight: 400;
+  line-height: 1.8em;
+  letter-spacing: 20;
+}
+.link{
+  color: blue;
+}
+.devops h2{
+  color: rgb(251, 250, 249);
+  font-weight: 500;
+  text-align: left;
+}
+.iam h2{
+  color: rgb(251, 250, 249);
+  font-weight: 500;
+  text-align: left;
+}
+.governance h2{
+  color: rgb(251, 250, 249);
+  font-weight: 500;
+  text-align: left;
+}
+.protection h2{
+  color: rgb(251, 250, 249);
+  font-weight: 500;
+  text-align: left; 
+}
+.cybersecurity h2{
+  color: rgb(251, 250, 249);
+  font-weight: 500;
+  text-align: left; 
+}
+.img-fluid{
+  min-width: 100%;
+  border-radius: 1%
+}
+.cybersecurityTool h2{
+  color: rgb(243, 169, 95);
+  font-weight: 600;
+  text-align: center; 
+  padding: 10px;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.centered h1,h3{
+  color:white;
+  font-weight: 600;
+}
+.container {
+  position: relative;
+  color: white;
+}
+.accbody{
+  font-weight: 400;
+  color: #020e1e;
+}
+.card {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.card:hover {
+  background-color: rgb(252, 216, 181);
+  box-shadow: 2px 2px 10px rgb(255, 255, 255);
 }
