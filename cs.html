@@ -34,6 +34,16 @@
     <script src="https://kit.fontawesome.com/182f8210e3.js" crossorigin="anonymous"></script>
     <script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
     <script type="text/javascript" src="js/jquery-ui.min.js"></script>
+
+    <!-- ===============================style for menu====================================== -->
+    <style>
+        @media (max-width: 768px) {
+            #linee {
+                display: none;
+            }
+        }
+    </style>
+
 </head>
 
 <body class="size-1280 primary-color-red border-dark">
@@ -45,9 +55,9 @@
             <div class="s-12 l-2"> <a href="index.html" class="logo"> <img class="logo-white img-fluid"
                         src="img/logo.png" alt=""> <img class="logo-dark img-fluid" src="img/logo.png" alt=""> </a>
             </div>
-            <div class="top-nav s-12 l-10 center text-dark">
-                <ul>
-                    <li class="dropdown"><a href="#">Services<i class="bi bi-chevron-down"></i></a>
+            <div class="top-nav text-dark">
+                <li class="dropdown"><a href="#">Services<i class="bi bi-chevron-down"></i></a>
+                    <div class="top-nav s-12 l-10 center text-dark">
                         <ul>
                             <li><a href="csor.html">Oracle Fusion</a></li>
                             <li class="isDisabled"><a>Digital Transformation</a></li>
@@ -55,21 +65,58 @@
                                         style="padding-left:25px">&nbspApplication Services & Modernization</i></a></li>
                             <li><a href="cloud.html"><i class="ri-checkbox-blank-circle-line"
                                         style="padding-left:25px">&nbspCloud & DevOps</i></a></li>
-                            <li><a href="daai.html"><i class="ri-checkbox-blank-circle-line"
-                                        style="padding-left:25px">&nbspData & Analytics</i></a></li>
-                            <li><a href="qe.html">Enterprise Testing</a></li>
-                            <li><a href="cs.html">Cyber Security</a></li>
-                            <li><a href="sn.html">Service Now</a></li>
                         </ul>
-                    </li>
-                    <li><a href="career/careers.html">Careers</a></li>
-                    <li><a href="contact.html">Contact Us</a></li>
-                    <li class="dropdown"><a href="#">Company<i class="bi bi-chevron-down"></i></a>
-                        <ul>
-                            <li><a href="about.html">About Us</a></li>
-                            <li><a href="loca.html">Locations</a></li>
-                        </ul>
-                    </li>
+                    </div>
+                    <ul>
+                        <li><a href="csor.html">Oracle Fusion</a></li>
+                        <li class="isDisabled"><a>Digital Transformation</a></li>
+                        <li><a href="appmod.html"><i class="ri-checkbox-blank-circle-line"
+                                    style="padding-left:25px;">&nbspApplication Services & Modernization</i></a></li>
+                        <li><a href="cloud.html"><i class="ri-checkbox-blank-circle-line"
+                                    style="padding-left:25px">&nbspCloud & DevOps</i></a></li>
+                        <li><a href="daai.html"><i class="ri-checkbox-blank-circle-line"
+                                    style="padding-left:25px">&nbspData & Analytics</i></a></li>
+                        <li><a href="qe.html">Enterprise Testing</a></li>
+                        <li class="isDisabled"><a href="cs.html">Security</a></li>
+                        <li class="link"><a href="#item1"> <i class="ri-checkbox-blank-circle-line"
+                                    style="padding-left:25px">&nbspStrategy, Consulting and Advisory</i></a>
+                            <div class="top-nav s-12 l-10 center text-dark">
+                                <ul>
+                                    <p><a href="csor.html">Oracle Fusion</a></p>
+                                </ul>
+                            </div>
+                        </li>
+
+                        <li><a href="cloud.html"><i class="ri-checkbox-blank-circle-line"
+                                    style="padding-left:25px">&nbspCloud Security</i></a></li>
+                        <li><a href="appmod.html"><i class="ri-checkbox-blank-circle-line"
+                                    style="padding-left:25px">&nbspDevSecOps</i></a></li>
+                        <li><a href="cloud.html"><i class="ri-checkbox-blank-circle-line"
+                                    style="padding-left:25px">&nbspGovernance, Risk and Compliance</i></a></li>
+                        <li><a href="appmod.html"><i class="ri-checkbox-blank-circle-line"
+                                    style="padding-left:25px">&nbspIAM and Governance</i></a></li>
+                        <li><a href="cloud.html"><i class="ri-checkbox-blank-circle-line"
+                                    style="padding-left:25px">&nbspApplication Security</i></a></li>
+                        <li><a href="appmod.html"><i class="ri-checkbox-blank-circle-line"
+                                    style="padding-left:25px">&nbspVulnerability and Threat Management</i></a></li>
+                        <li><a href="cloud.html"><i class="ri-checkbox-blank-circle-line"
+                                    style="padding-left:25px">&nbspPenetration Testing</i></a></li>
+                        <li><a href="appmod.html"><i class="ri-checkbox-blank-circle-line"
+                                    style="padding-left:25px">&nbspData Protection and Privacy</i></a></li>
+                        <li><a href="cloud.html"><i class="ri-checkbox-blank-circle-line"
+                                    style="padding-left:25px">&nbspCyber Threat and Defense Operations (NextGen
+                                    SOC-SOAR)</i></a></li>
+                        <li><a href="sn.html">Service Now</a></li>
+                    </ul>
+                </li>
+                <li><a href="career/careers.html">Careers</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li class="dropdown"><a href="#">Company<i class="bi bi-chevron-down"></i></a>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="loca.html">Locations</a></li>
+                    </ul>
+                </li>
                 </ul>
             </div>
         </nav>
@@ -84,479 +131,577 @@
                             <div class=" bord-ts-32">
                                 <div class="padding-r20p" style="color: #fff;"> Cyber Security</div>
                             </div>
-                            </h2>
-                            <div class="container" style="padding-bottom:0.5rem;"> <a
-                                    class="text-primary-hover isDisabled" style="color: #fff;">Home &nbsp&nbsp<span
-                                        class="text-orange">/</span> &nbsp&nbsp Services &nbsp&nbsp<span
-                                        class="text-orange">/</span>&nbsp&nbsp Cyber Security</a> </div>
+                        </h1>
+                        <div class="container" style="padding-bottom:0.5rem;"> <a href="cs.html"
+                                class="text-primary-hover isDisabled" style="color: rgb(255, 255, 255);">Home
+                                &nbsp&nbsp<span class="text-orange">/</span> &nbsp&nbsp Services &nbsp&nbsp<span
+                                    class="text-orange">/</span>&nbsp&nbsp Cyber Security</a>
+                        </div>
                     </div>
                 </div>
                 </div>
                 <div class="background-parallax" style="background-image:url(img/sub-page/sn.jpg)"></div>
             </header>
             <!-- ==================================================================== -->
-            <section class="section-background">
-                <div class="container text-center">
+            <section class="sect">
+                <div class="text-center">
                     <div class="row">
-
-                            <div class="col">
-                                <div class="headers">
-                                    <h1>Securing Businesses through Cyber <br/> Resilience with Zero Trust</h1>
-                                    <h3>Our versatile portfolio of cybersecurity services across consulting,
-                                        implementation, <br/>managed security services, and solutions, provides security assurance<br/> to your
-                                        digital business services.
-                                    </h3>
-                                </div>
+                        <div class="col-10 col-sm-10 col-md-10 col-lg-10">
+                            <div class="row" style="padding-Top: 1%; padding-left: 2%;">
+                                <h2 style="color: rgb(26, 26, 87);text-align: left;"><span
+                                        class="text-primary bord-ts-32"></span>
+                                    <span style="color:rgb(6, 6, 150);font-weight:bold">Securing Businesses</span>
+                                    through
+                                    <span style="color:rgb(255, 157, 0);font-weight:bold">Cyber Resilience</span> with
+                                    <span style="color:#f9d02f;font-weight:bold">Zero Trust</span>
+                                </h2>
                             </div>
-                    </div>
+                        </div>
+                        <!-- ======================toggle===================== -->
+                        <div class="col-2 col-sm-2 col-md-2 col-lg-2">
+                            <div class="form-check form-switch">
+                                <input class="form-check-input" type="checkbox" role="switch" id="selector">
+                                <label class="form-check-label" for="flexSwitchCheckDefault">Dark</label>
+                            </div>
+                        </div>
+                        <!-- ======================================================== -->
                     </div>
                 </div>
-                <div class="container text-center">
+            </section>
+            <section class="section">
+                <div class="text-center">
                     <div class="row">
-                        <div class="whoWeAre">
-                            <h4><span class="text-primary bord-ts-32"></span>WHO WE ARE!</h4>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-12 col-sm-12 col-md-12 col-lg-6" >
-                            <img src="images/whoAreWe.png" class="hovereffect" style="opacity: 0.5;">
-                        </div>
-                        <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-5">
                             <div class="row">
-                                <div class="col-12 col-sm-12 col-md-6 col-lg-6" style="padding: 10px;">
-                                    <div class="card" style="min-height: 50px;">
-                                        <div class="card-body">
-                                            <p class="card-text"><i class="fa-solid fa-ellipsis-vertical"></i> &nbsp Global Information Technology Services and Consulting
-                                                Firm with over 200+ associates with offices in UK, Europe, America,
-                                                Canada, Middle East, Asia Pacific and India (Hyderabad, Indore,
-                                                Bangalore).</p>
+                                <div class="col-12 col-lg-12 col-md-6" style="padding: 1%;padding-left: 4%;">
+                                    <div class="row">
+                                        <div class="col-2">
+                                            <img class="img-fluid" src="images/challenges (2).png"
+                                                style="min-width: 100%;padding-top: 1%;">
+                                        </div>
+                                        <div class="col-10">
+                                            <h3
+                                                style="color: rgb(248, 69, 5);font-weight: 800;text-align: left;padding-top: 4%;">
+                                                <u>Challenges</u>
+                                            </h3>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="col-12 col-sm-12 col-md-6 col-lg-6" style="padding: 10px;">
-                                    <div class="card" style="min-height: 188px;">
-                                        <div class="card-body">
-                                            <p class="card-text">Capabilities spanning across Management, Consulting,
-                                                Technology Services.</p>
-                                        </div>
+                                    <div class="row">
+                                        <p class="card-text text-left" style="padding-left: 4%;font-size:medium;">
+                                            <i class="bi2 bi-square"></i>Upsurge in Cyber Attacks,
+                                            software supply chain attacks, and Data Breaches causing serious
+                                            Digital disruptions<br />
+                                            <i class="bi2 bi-square"></i>Digital transformation
+                                            caused a shift across the threat landscape.<br />
+                                            <i class="bi2 bi-square"></i>On-demand access to
+                                            ubiquitous data and information platforms is growing.<br />
+                                            <i class="bi2 bi-square"></i>Compromised Credentials,
+                                            Phishing, Malware and cloud misconfiguration were the top attack
+                                            vectors.<br />
+                                            <i class="bi2 bi-square"></i>Digital Supply chain
+                                            attacks breaches; Compromised third-party vendor, are becoming a
+                                            critical problem.<br />
+                                            <i class="bi2 bi-square"></i>Cyber Risk management has
+                                            not kept pace with the proliferation of digital and analytics
+                                            transformations
+                                            Limited/No Capability to to identify and manage digital
+                                            risks.<br />
+                                        </p>
                                     </div>
                                 </div>
-                                <div class="col-12 col-sm-12 col-md-6 col-lg-6" style="padding: 10px;">
-                                    <div class="card" style="min-height: 188px;">
-                                        <div class="card-body">
-                                            <p class="card-text">Serving leading Clients across Technology, Banking,
-                                                Insurance, Manufacturing and Public Sector industries.</p>
+                                <div id="linee">
+                                    <hr class=".d-md-none .d-lg-block"
+                                        style="color:rgb(26, 26, 87);height: 1px;opacity: 1;">
+                                </div>
+                                <br />
+                                <div class="col-12 col-lg-12 col-md-6" style="padding-left: 4%;">
+                                    <div class="row">
+                                        <div class="col-2">
+                                            <img class="img-fluid" src="images/measures.png"
+                                                style="min-width:100%;padding-top: 4%;">
+                                        </div>
+                                        <div class="col-10">
+                                            <h3
+                                                style="color: rgb(2, 62, 100);font-weight: 800;text-align: left;padding-top: 4%;">
+                                                <u>Measures</u>
+                                            </h3>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="col-12 col-sm-12 col-md-6 col-lg-6" style="padding: 10px;">
-                                    <div class="card" style="min-height: 188px;">
-                                        <div class="card-body">
-                                            <p class="card-text">Specializes in partnering with business and technology
-                                                leaders in turnkey execution of strategic initiatives.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="container text-center">
-                    <div class="row">
-                        <div class="col-12 col-sm-12 col-md-12 col-lg-6" style="padding-left: 8%;padding-top: 3%;">
-                            <div class="card" style="background-color: #fece78;min-width: 80%;">
-                                <div class="card-content">
-                                    <div class="card-body">
-                                        <h5 class="card-header">Cybersecurity Challenges</h5>
-                                        <p class="card-text-inner">1.Digital transformation caused a shift across the
-                                            threat landscape.<br />
-                                            2.Attacks shift to critical infrastructure and supply chains.<br />
-                                            3.Increasing software application attacks.<br />
-                                            4.Lack of adherence to essential risk management principles.<br />
-                                            5.Digital Supply chain attacks - breaches that are facilities by a
-                                            compromised third-party vendor, are becoming a critical problem.<br />
-                                            6.Migration to cloud environments helped mitigate attacks targeting
-                                            platforms and network services.<br />
-                                            7.Compromised credentials, phishing and cloud misconfiguration were the top
-                                            attack vectors.
+                                    <div class="col-12 col-lg-12 col-md-12 col-sm-12">
+                                        <p class="card-text text-left" style="font-size:medium;">
+                                            <i class="bi1 bi-square"></i> Incorporate Sustainable, Cyber-resilient
+                                            Ecosystem through Zero-Trust approach<br />
+                                            <i class="bi1 bi-square"></i> Effectively managing of digital risks and
+                                            constituting cybersecurity maturity against Industry benchmarks.​<br />
+                                            <i class="bi1 bi-square"></i>Attain borderless security through cloud,
+                                            security governance, and operations.<br />
+                                            <i class="bi1 bi-square"></i>Strengthen your digital identities (Workforce
+                                            vs. Consumer) through our IAM, Governance services.<br />
+                                            <i class="bi1 bi-square"></i>Effectively strengthen your Policy/Data/Access
+                                            Governance.<br />
+                                            <i class="bi1 bi-square"></i>Safeguard your defense through adaptable attack
+                                            surface management.<br />
+                                            <i class="bi1 bi-square"></i>Leverage Proactive Identification and Defensive
+                                            Strategies against new unknown threats via IOAs and deeper TTPs knowledge of
+                                            a threat actor.<br />
                                         </p>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-12 col-sm-12 col-md-12 col-lg-6" style="padding-left: 8%;padding-top: 3%;">
-                            <div class="card" style="background-color: #cee1fb;min-width: 80%;">
-                                <div class="card-body">
-                                    <h5 class="card-header">Measures</h5>
-                                    <p class="card-text-inner">
-                                        1.Incorporate sustainable, cyber-resilient ecosystem towards effective
-                                        management of your businesses and digital services through our integrated 3600
-                                        Cybersecurity services.<br />
-                                        2.Effectively managing of digital risks and constituting cybersecurity maturity
-                                        against Industry benchmarks.<br />
-                                        3.Attain borderless security for your technology landscape through our
-                                        end-to-end services for cloud, security governance, and operations.<br />
-                                        4.Strengthen your digital identities (Workforce vs. Consumer) through our IAM,
-                                        Governance services.<br />
-                                        5.Safeguard your defense against cyber threats with our adaptable Vulnerability
-                                        & Threat Management Services including attack surface management.
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-7">
+                            <div class="row" style="padding-top:10px; padding-left: 7%;">
+                                <h3 style="color: rgb(26, 26, 87);text-align: left;">
+                                    <span style="color:rgb(7, 7, 97);font-weight:bold;"><i
+                                            class="bi bi-lock"></i>&nbspCyber Security Services Portfolio :</span>
+                                </h3>
+                            </div>
+                            <div class="row" style="padding-left: 2%;padding-bottom: 2%;">
+                                <p class="texts text">&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Our versatile portfolio
+                                    of
+                                    cybersecurity services across
+                                    consulting, implementation, managed security <br />services, and solutions, provides
+                                    security assurance to your digital business services.</p>
+                            </div>
+                            <hr class="line"
+                                style="color:rgb(26, 26, 87);height: 1.5px;opacity: 1;margin-left: 10%;margin-right: 7%;">
+                            <div class="row" style="padding: 1%;">
+                                <img class="img-fluid" src="images/cybersecurityTool.png"
+                                    style="min-width: 100%;padding-top: 1%;">
+                            </div>
+                            <div class="row" style="padding: 1%;padding-left: 10%;">
+                                <h3 class="tools"><i class="bi bi-tools"></i>&nbsp Tools & Technologies :</h3>
+                                <div class="row" style="justify-content: center;">
+                                    <div class="col-1">
+                                        <img class="img-fluid" src="images/elk-stack-logo.png">
+                                    </div>
+                                    <div class="col-2">
+                                        <img class="img-fluid" src="images/automation_anywhere.png">
+                                    </div>
+                                    <div class="col-2">
+                                        <img class="img-fluid" src="images/azure.png">
+                                    </div>
+                                    <div class="col-2">
+                                        <img class="img-fluid" src="images/ayehu.png">
+                                    </div>
+                                    <div class="col-2">
+                                        <img class="img-fluid" src="images/aws_devops.png">
+                                    </div>
+                                    <div class="col-2">
+                                        <img class="img-fluid" src="images/google_cloud.png">
+                                    </div>
+                                    <div class="col-2">
+                                        <img class="img-fluid" src="images/oracle.png">
+                                    </div>
+                                    <div class="col-1">
+                                        <img class="img-fluid" src="images/umbrella-trans.png">
+                                    </div>
+                                    <div class="col-1">
+                                        <img class="img-fluid" src="images/CCM.png">
+                                    </div>
+                                    <div class="col-2">
+                                        <img class="img-fluid" src="images/wire_shark.png">
+                                    </div>
+                                    <div class="col-2">
+                                        <img class="img-fluid" src="images/draktrace.png">
+                                    </div>
+                                    <div class="col-2">
+                                        <img class="img-fluid" src="images/sequirity_scorecard.png">
+                                    </div>
+                                    <div class="col-2">
+                                        <img class="img-fluid" src="images/zscaler.png">
+                                    </div>
+                                    <div class="col-2">
+                                        <img class="img-fluid" src="images/deepfactor.png">
+                                    </div>
+                                    <div class="col-1">
+                                        <img class="img-fluid" src="images/kali.png">
+                                    </div>
+                                    <div class="col-2">
+                                        <img class="img-fluid" src="images/microsoft_sentinel.png">
+                                    </div>
+                                    <div class="col-2">
+                                        <img class="img-fluid" src="images/open_vas.png">
+                                    </div>
+                                    <div class="col-2">
+                                        <img class="img-fluid" src="images/cis_ram.png">
+                                    </div>
+                                    <div class="col-1">
+                                        <img class="img-fluid" src="images/okta.png">
+                                    </div>
+                                    <div class="col-2">
+                                        <img class="img-fluid" src="images/checkmarx.png">
+                                    </div>
+                                    <div class="col-2">
+                                        <img class="img-fluid" src="images/burpsuite.png">
+                                    </div>
+                                    <div class="col-2">
+                                        <img class="img-fluid" src="images/qualys.png">
+                                    </div>
+                                    <div class="col-2">
+                                        <img class="img-fluid" src="images/metricstream.png">
+                                    </div>
+                                    <div class="col-2">
+                                        <img class="img-fluid" src="images/onetrust.png">
+                                    </div>
+                                    <div class="col-2">
+                                        <img class="img-fluid" src="images/servicenow.png">
+                                    </div>
+                                    <div class="col-2">
+                                        <img class="img-fluid" src="images/aravo.jpg">
+                                    </div>
+                                    <div class="col-2">
+                                        <img class="img-fluid" src="images/securonix.png">
+                                    </div>
+                                    <div class="col-2">
+                                        <img class="img-fluid" src="images/Microsoft.png">
+                                    </div>
+                                    <div class="col-2">
+                                        <img class="img-fluid" src="images/crowd_strike.png">
+                                    </div>
+                                    <div class="col-2">
+                                        <img class="img-fluid" src="images/shared_Assessments.png">
+                                    </div>
+                                    <div class="col-2">
+                                        <img class="img-fluid" src="images/azure_devops.png">
+                                    </div>
+                                    <div class="col-2">
+                                        <img class="img-fluid" src="images/aws.png">
+                                    </div>
+                                    <!-- <div class="col-2">
+                                        <img class="img-fluid" src="images/cis_csat.png">
+                                    </div> -->
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="section2" style="padding: 1%;">
+                <div class="row" style="padding-top:10px; padding-left: 4%;">
+                    <h2 style="color: rgb(26, 26, 87);text-align: left;"><span class="text-primary bord-ts-32"></span>
+                        <span style="color:rgb(7, 7, 97);font-weight:bold;">Services We Offer</span>
+                    </h2>
+                </div>
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3" style="padding: 1%;">
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img class="img-fluid" src="images/strategy1.png" style="min-width: 100%;" alt="">
+                            <div class="card-body">
+                                <h3 class="card-header">Strategy, Consulting and Advisory Services </h3>
+                                <div style="min-height: 155px;">
+                                    <p class="card-text">Our Cybersecurity Strategy, Consulting and Advisory Services
+                                        provide a structured approach to measure your organization's security posture.
+                                        It's
+                                        a thorough assessment of your current business practices against security risks
+                                        and
+                                        threats.</p>
+                                </div>
+                                <div style="align-items:center;">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary"
+                                            style="background-color: rgb(26, 26, 87);color: white;"><a
+                                                href="strategy_cybersecurity.html" style="color: white;">Learn
+                                                more</a></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img class="img-fluid" src="images/cloudSecurityServices.png" style="min-width: 100%;"
+                                alt="">
+                            <div class="card-body">
+                                <h3 class="card-header">Cloud Security Services </h3>
+                                <div style="min-height: 180px;">
+                                    <p class="card-text">Our comprehensive cloud security services along with effective
+                                        security framework, enable customers manage security risks and
+                                        build
+                                        security defence in the cloud. Our focused and comprehensive approach combines a
+                                        versatile strategy with the best technologies, industry best practices and
+                                        proven
+                                        security services delivery models alongside GRC to stay ahead of cyber threats.
                                     </p>
                                 </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="container text-center">
-                    <div class="row">
-                        <div class="services-offer">
-                            <h4><span class="text-primary bord-ts-32"></span>SERVICES WE OFFER !</h4>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-12 col-md-12 col-lg-6">
-                            <div class="accordion accordion-flush" id="accordionFlushExample">
-                                <div class="accordion-item">
-                                    <h2 class="accordion-header" id="flush-headingOne">
-                                        <button class="accordion-button collapsed" type="button"
-                                            data-bs-toggle="collapse" data-bs-target="#flush-collapseOne"
-                                            aria-expanded="false" aria-controls="flush-collapseOne">
-                                            Strategy, Consulting and Advisory Services
-                                        </button>
-                                    </h2>
-                                    <div id="flush-collapseOne" class="accordion-collapse collapse"
-                                        aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-                                        <div class="accordion-body">
-                                            <p class="accbody">Our Cybersecurity Strategy, Consulting and Advisory
-                                            Services provide a structured approach to measure your organization's
-                                            security posture. It's a thorough assessment of your current business
-                                            practices against security risks and threats.
-                                            <u><a href="#item1" class="link" style="color:blue;">learn more</a></u>
-                                        </p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="accordion-item">
-                                    <h2 class="accordion-header" id="flush-headingTwo">
-                                        <button class="accordion-button collapsed" type="button"
-                                            data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo"
-                                            aria-expanded="false" aria-controls="flush-collapseTwo">
-                                            DevSecOps and Application Security Services
-                                        </button>
-                                    </h2>
-                                    <div id="flush-collapseTwo" class="accordion-collapse collapse"
-                                        aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-                                        <div class="accordion-body">
-                                            <p class="accbody">Our DevSecOps Services and Framework provides 'Shift
-                                                Left' approach towards DevOps Security. This is a collaborative approach to
-                                                detect operational security gaps in every phase of the software lifecycle
-                                                process, from design to deployment.
-                                                <u><a href="#item2" class="link" style="color:blue;">learn more</a></u></p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="accordion-item">
-                                    <h2 class="accordion-header" id="flush-headingThree">
-                                        <button class="accordion-button collapsed" type="button"
-                                            data-bs-toggle="collapse" data-bs-target="#flush-collapseThree"
-                                            aria-expanded="false" aria-controls="flush-collapseThree">
-                                            IAM and Governance Services
-                                        </button>
-                                    </h2>
-                                    <div id="flush-collapseThree" class="accordion-collapse collapse"
-                                        aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-                                        <div class="accordion-body">
-                                            <p class="accbody">Our SaaS based IAMG Services an outline of critical
-                                            capabilities required for an effective and comprehensive Identity and
-                                            Access-centric approach to secure ever-growing ecosystem of Identities and
-                                            IT assets. IT enables necessary controls to effectively manage the
-                                            continuing landscape of security risks.
-                                            <u><a href="#item3" class="link" style="color:blue;">learn more</a></u>
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="accordion-item">
-                                    <h2 class="accordion-header" id="flush-headingFour">
-                                        <button class="accordion-button collapsed" type="button"
-                                            data-bs-toggle="collapse" data-bs-target="#flush-collapseFour"
-                                            aria-expanded="false" aria-controls="flush-collapseThree">
-                                            Governance, Risk and Compliance Services
-                                        </button>
-                                    </h2>
-                                    <div id="flush-collapseFour" class="accordion-collapse collapse"
-                                        aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-                                        <div class="accordion-body">
-                                            <p class="accbody">Our SaaS based GRC Service enable organizations
-                                            emphasize more control over complex and ever-changing risk and compliance
-                                            dynamics.
-                                            <u><a href="#item4" class="link" style="color:blue;">learn more</a></u>
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="accordion-item">
-                                    <h2 class="accordion-header" id="flush-headingFive">
-                                        <button class="accordion-button collapsed" type="button"
-                                            data-bs-toggle="collapse" data-bs-target="#flush-collapseFive"
-                                            aria-expanded="false" aria-controls="flush-collapseThree">
-                                            Data Protection & Privacy Services
-                                        </button>
-                                    </h2>
-                                    <div id="flush-collapseFive" class="accordion-collapse collapse"
-                                        aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-                                        <div class="accordion-body">
-                                            <p class="accbody">Our Data Protection and Privacy Services enable
-                                            classification of data, policy enforcement, guaranteeing integrity,
-                                            providing controlled access, audit of sensitive data and users. Through our
-                                            managed services, we monitor data in real-time and encrypt it to keep it
-                                            safe from exploitation.
-                                            <u><a href="#item5" class="link" style="color:blue;">learn more</a></u>
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="accordion-item">
-                                    <h2 class="accordion-header" id="flush-headingSix" >
-                                        <button class="accordion-button collapsed" type="button"
-                                            data-bs-toggle="collapse" data-bs-target="#flush-collapseSix"
-                                            aria-expanded="false" aria-controls="flush-collapseThree" style="background-color:#f8cc86;">
-                                            Cybersecurity Maturity Assessment Service Offering
-                                        </button>
-                                    </h2>
-                                    <div id="flush-collapseSix" class="accordion-collapse collapse"
-                                        aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-                                        <div class="accordion-body">
-                                            <p class="accbody">Our Cybersecurity Maturity Assessment provides a
-                                            structured approach to measure your organization's security posture. It's a
-                                            thorough assessment of your current business practices against security
-                                            risks and threats.
-                                            <u><a href="#item6" class="link" style="color:blue;">learn more</a></u>
-                                            </p>
-                                        </div>
+                                <div style="align-items:center;">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary"
+                                            style="background-color: rgb(21, 21, 76);color: rgb(255, 255, 255);">Learn
+                                            more</button>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-12 col-md-12 col-lg-6">
-                            <img class="img-fluid" src="images/servicesWeOffered.png" style="min-width: 100%;opacity: 0.4;" alt="">
+                    </div>
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img class="img-fluid" src="images/devopsandApplicationSecurity.png"
+                                style="min-width: 100%;" alt="">
+                            <div class="card-body">
+                                <h3 class="card-header">DevSecOps and Application Security </h3>
+                                <div style="min-height: 170px;">
+                                    <p class="card-text">Our DevSecOps Services and Framework provides 'Shift Left'
+                                        approach
+                                        towards DevOps Security. This is a collaborative approach to detect operational
+                                        security gaps in every phase of the software lifecycle process, from design to
+                                        deployment. It ensures that reliability and compliance are considered at the
+                                        early
+                                        stages of development.</p>
+                                </div>
+                                <div style="align-items:center;">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary"
+                                            style="background-color: rgb(26, 26, 87);color: white;">Learn more</button>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="container text-cente" id="item1">
-                    <div class="row">
-                        <div class="strategy">
-                            <h2><span class="text-primary bord-ts-32"></span>Strategy, Consulting and Advisory Services
-                                ...</h2>
-                            <p>Our Cybersecurity Strategy, Consulting and Advisory Services provide a structured
-                                approach to measure your organization's security posture. It's a thorough assessment of
-                                your current business practices against security risks and threats.</p>
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img class="img-fluid" src="images/IAMandgovernance.png" style="min-width: 100%;" alt="">
+                            <div class="card-body">
+                                <h3 class="card-header">IAM and Governance (IAMG)</h3>
+                                <div style="min-height: 200px;">
+                                    <p class="card-text">Our SaaS based IAMG Services an outline of critical
+                                        capabilities
+                                        required for an effective and comprehensive Identity and Access-centric approach
+                                        to
+                                        secure ever-growing ecosystem of Identities and IT assets. IT enables necessary
+                                        controls to effectively manage the continuing landscape of security risks.</p>
+                                </div>
+                                <div style="align-items:center;">
+                                    <div class="btn-group align-content">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary"
+                                            style="background-color: rgb(26, 26, 87);color: white;"><a
+                                            href="iam_governance_cybersecurity.html" style="color: white;">Learn
+                                            more</a></button>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="col-12 col-sm-12 col-md-12 col-lg-6">
-                            <h5 class="inline"><i class="fa-solid fa-arrow-right"></i> We enable customers define a
-                                comprehensive cyber security strategy, priorities investments and align security
-                                capabilities with strategic imperatives of the organization.<br />
-                                <i class="fa-solid fa-arrow-right"></i> Additionally, we also assist customers
-                                define business-driven cyber resilient architecture(s), create sustainable
-                                solutions.<br />
-                                <i class="fa-solid fa-arrow-right"></i> Security Proactive Data Protection.<br />
-                                <i class="fa-solid fa-arrow-right"></i> It also keeps you informed on what you can
-                                do to address the gaps and build competencies including Identify and Prioritize
-                                risks.<br />
-                                <i class="fa-solid fa-arrow-right"></i> Addressing the right risks.<br />
-                                <i class="fa-solid fa-arrow-right"></i> Measures effectiveness of defense-in-depth
-                                architecture <br />
-                                <i class="fa-solid fa-arrow-right"></i> Improved Compliance and Reputation<br />
-                                <i class="fa-solid fa-arrow-right"></i> Increased Stakeholder's confidence.
-                            </h5>
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img class="img-fluid" src="images/governance_risk_.png" style="min-width: 100%;" alt="">
+                            <div class="card-body">
+                                <h3 class="card-header">Governance, Risk and Compliance</h3>
+                                <div style="min-height: 205px;">
+                                    <p class="card-text">Our SaaS based GRC Service enable organizations emphasize more
+                                        control over complex and ever-changing risk and compliance dynamics. Our focused
+                                        and
+                                        comprehensive approach combines a holistic security strategy with the best
+                                        technologies, alongside governance, risk, and compliance to stay ahead of cyber
+                                        threats including Intensified governance, protection and monitoring mechanisms.
+                                    </p>
+                                </div>
+                                <div style="align-items:center;">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary"
+                                            style="background-color: rgb(26, 26, 87);color: white;">Learn more</button>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
+                    </div>
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img class="img-fluid" src="images/vulnerability_and_threat.png" style="min-width: 100%;"
+                                alt="">
+                            <div class="card-body">
+                                <h3 class="card-header">Vulnerability and Threat Management</h3>
+                                <div style="min-height: 215px;">
+                                    <p class="card-text">Our SaaS based Vulnerability and Threat Assessment service
+                                        offers a
+                                        complete vulnerability management life cycle for finding and remediating
+                                        security
+                                        weaknesses before they are exploited and helps with improved visibility to
+                                        security
+                                        posture.</p>
+                                </div>
+                                <div style="align-items:center;">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary"
+                                            style="background-color: rgb(26, 26, 87);color: white;">Learn more</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img class="img-fluid" src="images/penetration_testing.png" style="min-width: 100%;" alt="">
+                            <div class="card-body">
+                                <h3 class="card-header">Penetration Testing</h3>
+                                <div style="min-height: 155px;">
+                                    <p class="card-text">Our Penetration Testing service helps measure your
+                                        organization's
+                                        readiness to defend against potential external and internal threats. It
+                                        categorizes
+                                        vulnerabilities in networks, systems, hosts, applications, networks and network
+                                        devices before hackers can discover and exploit them</p>
+                                </div>
 
-                        <div class="col-12 col-sm-12 col-md-12 col-lg-6">
-                            <img class="img-fluid" src="images/strategy.png" style="min-width: 100%;opacity: 0.8;" alt="">
+                                <div style="align-items:center;">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary"
+                                            style="background-color: rgb(26, 26, 87);color: white;">Learn more</button>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </div>
-
-                <div class="container text-cente" id="item2">
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img class="img-fluid" src="images/data_protection_policy.png" style="min-width: 100%;"
+                                alt="">
+                            <div class="card-body">
+                                <h3 class="card-header">Data Protection and Privacy</h3>
+                                <div style="min-height: 160px;">
+                                    <p class="card-text">Our Data Protection and Privacy Services enable classification
+                                        of
+                                        data, policy enforcement, guaranteeing integrity, providing controlled access,
+                                        audit
+                                        of sensitive data and users. Through our managed services, we monitor data in
+                                        real-time and encrypt it to keep it safe from exploitation. </p>
+                                </div>
+                                <div style="align-items:center;">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary"
+                                            style="background-color: rgb(26, 26, 87);color: white;">Learn more</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img class="img-fluid" src="images/cyber_threat_defence.png" style="min-width: 100%;"
+                                alt="">
+                            <div class="card-body">
+                                <h3 class="card-header">Cyber Threat and Defense Operations</h3>
+                                <div style="min-height: 140px;">
+                                    <p class="card-text">Our Cyber Threat and Defense Operation services and framework
+                                        provide real-time monitoring, advanced contextual analysis, automated incident
+                                        response, Workflow automation, improved response times and Intelligent
+                                        Orchestration
+                                        to proactively prevent, detect, and address security threats. </p>
+                                </div>
+                                <div class="" style="align-items:center;">
+                                    <div class="btn-group" style="text-align: right;">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary"
+                                            style="background-color: rgb(26, 26, 87);color: white;">Learn more</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </section>
+            <section>
+                <h3 class="tools" style="padding: 1%;"><i class="bi bi-tools"></i>&nbsp Tools & Technologies :</h3>
+                <marquee scrollamount="15" width="90%">
                     <div class="row">
-                        <div class="devops">
-                            <h2><span class="text-primary bord-ts-32"></span>DevOps, DevSecOps Service Offerings ...
-                            </h2>
-                            <p>Our DevSecOps Services and Framework provides 'Shift Left' approach towards DevOps
-                                Security. This is a collaborative approach to detect operational security gaps in
-                                every phase of the software lifecycle process, from design to deployment.</p>
+                        <div class="col-1">
+                            <img class="img-fluid" src="images/elk-stack-logo.png">
+                        </div>
+                        <div class="col-1">
+                            <img class="img-fluid" src="images/automation_anywhere.png">
+                        </div>
+                        <div class="col-1">
+                            <img class="img-fluid" src="images/azure.png">
+                        </div>
+                        <div class="col-1">
+                            <img class="img-fluid" src="images/ayehu.png">
+                        </div>
+                        <div class="col-1">
+                            <img class="img-fluid" src="images/aws_devops.png">
+                        </div>
+                        <div class="col-1">
+                            <img class="img-fluid" src="images/google_cloud.png">
+                        </div>
+                        <div class="col-1">
+                            <img class="img-fluid" src="images/oracle.png">
+                        </div>
+                        <div class="col-1">
+                            <img class="img-fluid" src="images/umbrella-trans.png">
+                        </div>
+                        <div class="col-1">
+                            <img class="img-fluid" src="images/CCM.png">
+                        </div>
+                        <div class="col-1">
+                            <img class="img-fluid" src="images/wire_shark.png">
+                        </div>
+                        <div class="col-1">
+                            <img class="img-fluid" src="images/draktrace.png">
+                        </div>
+                        <div class="col-1">
+                            <img class="img-fluid" src="images/sequirity_scorecard.png">
+                        </div>
+                        <div class="col-1">
+                            <img class="img-fluid" src="images/zscaler.png">
+                        </div>
+                        <div class="col-1">
+                            <img class="img-fluid" src="images/deepfactor.png">
+                        </div>
+                        <div class="col-1">
+                            <img class="img-fluid" src="images/kali.png">
+                        </div>
+                        <div class="col-1">
+                            <img class="img-fluid" src="images/microsoft_sentinel.png">
+                        </div>
+                        <div class="col-1">
+                            <img class="img-fluid" src="images/open_vas.png">
+                        </div>
+                        <div class="col-1">
+                            <img class="img-fluid" src="images/cis_ram.png">
+                        </div>
+                        <div class="col-1">
+                            <img class="img-fluid" src="images/okta.png">
+                        </div>
+                        <div class="col-1">
+                            <img class="img-fluid" src="images/checkmarx.png">
+                        </div>
+                        <div class="col-1">
+                            <img class="img-fluid" src="images/burpsuite.png">
+                        </div>
+                        <div class="col-1">
+                            <img class="img-fluid" src="images/qualys.png">
+                        </div>
+                        <div class="col-1">
+                            <img class="img-fluid" src="images/metricstream.png">
+                        </div>
+                        <div class="col-1">
+                            <img class="img-fluid" src="images/onetrust.png">
+                        </div>
+                        <div class="col-1">
+                            <img class="img-fluid" src="images/servicenow.png">
+                        </div>
+                        <div class="col-1">
+                            <img class="img-fluid" src="images/aravo.jpg">
+                        </div>
+                        <div class="col-1">
+                            <img class="img-fluid" src="images/securonix.png">
+                        </div>
+                        <div class="col-1">
+                            <img class="img-fluid" src="images/Microsoft.png">
+                        </div>
+                        <div class="col-1">
+                            <img class="img-fluid" src="images/crowd_strike.png">
+                        </div>
+                        <div class="col-1">
+                            <img class="img-fluid" src="images/shared_Assessments.png">
+                        </div>
+                        <div class="col-1">
+                            <img class="img-fluid" src="images/azure_devops.png">
+                        </div>
+                        <div class="col-1">
+                            <img class="img-fluid" src="images/aws.png">
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="col-12 col-sm-12 col-md-12 col-lg-6">
-                            <img class="img-fluid" src="images/devops.png" style="min-width: 100%;opacity: 0.8;" alt="">
-                        </div>
-                        <div class="col-12 col-sm-12 col-md-12 col-lg-6">
-                            <h5 class="inline"><i class="fa-solid fa-arrow-right"></i> It ensures that
-                                reliability and compliance are considered at the early stages of development.
-                                Through DevSecOps, security testing is considered very early in the lifecycle to
-                                prevent defects early in the software delivery process<br /><br />
-                                <i class="fa-solid fa-arrow-right"></i> DevSecOps Maturity model that suits your
-                                business goals and industry best practices.<br />
-                                <i class="fa-solid fa-arrow-right"></i> Secure DevOps / SSLDC Services enabled
-                                to support long-term sustenance and future business transformations.<br />
-                                <i class="fa-solid fa-arrow-right"></i> Implementation of CI/CD | Deep
-                                application security analysis | Creation of Data Lakes<br />
-                                <i class="fa-solid fa-arrow-right"></i> Adoption of Cloud
-                                Native/Serverless/Event Driven Architectures | Control of KPI/OKR in advanced
-                                Dashboards<br />
-                            </h5>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="container text-cente" id="item3">
-                    <div class="row">
-                        <div class="iam">
-                            <h2><span class="text-primary bord-ts-32"></span>IAM Strategy, Assessment and Roadmap
-                                Service Offering ...</h2>
-                            <p>Our comprehensive IAM Assessment service helps measure your organization’s IAM
-                                program maturity using industry best practices and set a course for
-                                transformation.</p>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-12 col-sm-12 col-md-12 col-lg-6">
-                            <h5 class="inline">
-                                <h4 style="color:rgb(53, 163, 177)"><i class="fa-solid fa-arrow-right"></i> Planning and
-                                    analysis<br /></h4>
-                                Collect and validate IAM requirements.<br />
-                                <i class="fa-solid fa-arrow-right"></i> Current state analysis
-                                <br />
-                                Gain an understanding of the current state, including business challenges, business
-                                processes, and existing infrastructure<br />
-                                <i class="fa-solid fa-arrow-right"></i> Target state analysis <br />
-                                Identify required IAM services for the short, medium, and long term.
-                                Discuss business process and technology options to deliver on these IAM needs<br />
-                                <i class="fa-solid fa-arrow-right"></i> Gap analysis<br />
-                                Perform gap analysis of IAM environment from current state to target state..<br />
-                                <i class="fa-solid fa-arrow-right"></i>Strategy and roadmap<br />
-                                Create an IAM strategy with timelines, priorities.<br />
-                            </h5>
-                        </div>
-                        <div class="col-12 col-sm-12 col-md-12 col-lg-6">
-                            <img class="img-fluid" src="images/IAM.png" style="opacity: 0.5;" alt="">
-
-                        </div>
-                    </div>
-                </div>
-                <div class="container text-cente" id="item4">
-                    <div class="row">
-                        <div class="governance">
-                            <h2><span class="text-primary bord-ts-32"></span>Governance, Risk and Compliance Service
-                                Offering ...</h2>
-                            <p>Our SaaS based GRC Service enable organizations emphasize more control over complex and
-                                ever-changing risk and compliance dynamics.</p>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-12 col-sm-12 col-md-12 col-lg-6">
-                            <img class="img-fluid" src="images/governance.png" style="opacity: 0.8;" alt="">
-                        </div>
-                        <div class="col-12 col-sm-12 col-md-12 col-lg-6">
-                            <h5 class="inline"><i class="fa-solid fa-arrow-right"></i> Our focused and comprehensive
-                                approach combines a holistic security strategy with the best technologies, alongside
-                                governance, risk, and compliance to stay ahead of cyber threats.<br /><br />
-                                <i class="fa-solid fa-arrow-right"></i> It helps enable Intensified governance,
-                                protection and monitoring mechanisms.<br />
-                                <i class="fa-solid fa-arrow-right"></i> Our GRC services combine real-time monitoring,
-                                reporting, and analysis to help organizations comply with regulations and prepare for
-                                business challenges around risk governance and GRC security.<br />
-                                <i class="fa-solid fa-arrow-right"></i> Minimize risk by aggressively identifying and
-                                addressing potential risk.<br />
-                                <i class="fa-solid fa-arrow-right"></i> Adoption of CloudAccelerate and streamline risk
-                                processes to reduce cost and operational risk.<br />
-                                <i class="fa-solid fa-arrow-right"></i> Improve decision making by providing risk
-                                insight and transparency to business decisions.<br />
-                            </h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="container text-cente" id="item5">
-                    <div class="row">
-                        <div class="protection">
-                            <h2><span class="text-primary bord-ts-32"></span>Data Protection and Privacy Service
-                                Offering ...</h2>
-                            <p>Our Data Protection and Privacy Services enable classification of data, policy
-                                enforcement, guaranteeing integrity, providing controlled access, audit of sensitive
-                                data and users. Through our managed services, we monitor data in real-time and encrypt
-                                it to keep it safe from exploitation.</p>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-12 col-sm-12 col-md-12 col-lg-6">
-                            <h5 class="inline"><i class="fa-solid fa-arrow-right"></i>Our in-depth assessment approach
-                                regarding personal and unstructured data provides risk and remediation-focused insights,
-                                and guidance towards retention policies, procedures and practices.<br />
-                                <i class="fa-solid fa-arrow-right"></i> The end state emphasizes Information Governance.
-                                <br />
-                                <i class="fa-solid fa-arrow-right"></i> Risk-based, Intelligence Driven,
-                                Business-centric approach<br />
-                                <i class="fa-solid fa-arrow-right"></i> Reduce risk of insider threat and identity
-                                fraud<br />
-                                <i class="fa-solid fa-arrow-right"></i> Methodically manage regulatory compliance<br />
-                                <i class="fa-solid fa-arrow-right"></i> Enable productivity for your business
-                                users<br />
-                                <i class="fa-solid fa-arrow-right"></i> Reduce costs and improve operational
-                                efficiency.<br />
-                                <i class="fa-solid fa-arrow-right"></i> Rapidly increase IAM standardization
-                            </h5>
-                        </div>
-                        <div class="col-12 col-sm-12 col-md-12 col-lg-6">
-                            <img class="img-fluid" src="images/privacy.png" style="opacity: 0.8;" alt="">
-                        </div>
-                    </div>
-                </div>
-                <div class="container text-cente" id="item6">
-                    <div class="row">
-                        <div class="cybersecurity">
-                            <h2> <span class="text-primary bord-ts-32"></span>Cybersecurity Maturity Assessment Service
-                                Offering ...</h2>
-                            <p>Our Cybersecurity Maturity Assessment provides a structured approach to measure your
-                                organization's security posture. It's a thorough assessment of your current business
-                                practices against security risks and threats</p>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-12 col-sm-12 col-md-12 col-lg-6">
-                            <img class="img-fluid" src="images/maturity.png" style="opacity: 0.8;" alt="">
-                        </div>
-                        <div class="col-12 col-sm-12 col-md-12 col-lg-6">
-                            <h5 class="inline"><i class="fa-solid fa-arrow-right"></i> It provides deep-dive insights on
-                                current state security gaps across your Hybrid implementation including compliance and
-                                governance, DevSecOps and container security.<br />
-                                <i class="fa-solid fa-arrow-right"></i> It helps Identify and Prioritize risks; also
-                                keeps you informed on what you can do to address the gaps and build competencies.<br />
-                                <i class="fa-solid fa-arrow-right"></i> Reduced attack surface; Improved
-                                resilience.<br />
-                                <i class="fa-solid fa-arrow-right"></i> Effective Identity and Access Governance; Data
-                                and Policy Governance.<br />
-                                <i class="fa-solid fa-arrow-right"></i> Improved hardening across Digital Assets;
-                                Hardened Hybrid Infrastructure Security posture.<br />
-                                <i class="fa-solid fa-arrow-right"></i> Prioritize security controls through risk-based
-                                decisions<br />
-                            </h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="container text-cente">
-                    <div class="row">
-                        <div class="col col-lg-10"></div>
-                        <div class="cybersecurityTool">
-                            <h2> <span class="text-primary bord-ts-32"></span><u>Cybersecurity Services, Tools and
-                                    Technology Capability Offerings ...</u></h2>
-                            <img class="img-fluid"   sizes="(max-width: 600px) 480px,
-                            800px" src="images/cybersecurityTool.png" alt="">
-                        </div>
-                    </div>
-                </div>
+                </marquee>
             </section>
             <!-- ======================================================== -->
             <section class="section1 background-parallax-container">
@@ -657,6 +802,24 @@
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
     <script src="js/main.js"></script>
+    <!-- =====================================toggle theme=================== -->
+    <script>
+        $(document).ready(function () {
+            $("#selector").change(function () {
+                $("body").toggleClass("bg-secondary");
+                $("nav").toggleClass("navbar-dark bg-dark");
+                $(".form-check-label").toggleClass("text-white");
+                $("h1").toggleClass("text-white");
+                $("h4").toggleClass("text-white");
+                $("section").toggleClass("bg-black");
+                $(".card-text").toggleClass("text-white");
+                $(".card").toggleClass("bg-dark");
+                $(".card-header").toggleClass("bg-dark");
+                $(".card-header").toggleClass("text-white");
+                // $("h2").toggleClass("text-white");
+            });
+        });
+    </script>
 </body>
 
 </html>

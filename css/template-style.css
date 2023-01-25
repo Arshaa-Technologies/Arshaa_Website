@@ -4,6 +4,7 @@ html{
 }
 body {
   background: #fff;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 p {
   color: #777;
@@ -13,9 +14,9 @@ p {
 a, a:link, a:visited, a:hover, a:active { 
 color: #777;
 }
-h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+h1, h3, h4, h5, h6, .h1,.h3, .h4, .h5, .h6 {
   color: #000;                                         
-  margin-bottom: 15px;
+  margin-bottom: 5px;
   margin-top: 0;
 }
 h1, .h1 {font-size: 1.8rem;}
@@ -30,7 +31,7 @@ h1.headline, .h1.headline {
 }
 h2.headline, .h2.headline {
   font-size: 3rem; 
-  letter-spacing: -1px; 
+  letter-spacing: 1px; 
 }
 h3.headline, .h3.headline {
   font-size: 2.6rem;
@@ -1934,7 +1935,7 @@ p.form-success {
 }
 .section  { 
   padding: 1.5em 1.25rem;
-  background: #020e1e;;
+  background: #ffffff;;
 }
 .section-top-padding  { 
   padding: 7rem 1.25rem 0  1.25rem;
@@ -2009,10 +2010,10 @@ body {
   overflow-x: hidden;
 } 
 p {
-  margin-bottom: 20px;
+  margin-bottom: 5px;
 }
 body, p { 
-  color: #838586;
+  color: #313232;
   font-weight: 700;
   font-family: 'Lato', sans-serif;
   font-size: 0.9rem;  
@@ -2035,7 +2036,7 @@ h1, .h1 {
   font-size: 50px;
   line-height: 1.2!important;
 }
-h2, h3, h4, h5, h6, .h2, .h3, .h4, .h5, .h6 {
+ h3, h4, h5, h6, .h3, .h4, .h5, .h6 {
   font-weight: 300;
   font-family: 'Lato', sans-serif;
   line-height: 1.8!important;
@@ -2495,6 +2496,7 @@ a.tab-label, a.tab-label:link, a.tab-label:visited, a.tab-label:hover, .backgrou
 .background-parallax-container {
   position:relative;
   overflow:hidden;
+  background-color: #022a49;
  }    
 .background-parallax {
   position:absolute;
@@ -2872,7 +2874,7 @@ i.icon-circle {
 }
  
 .section-background{
-  background-color: #020e1c;
+  background-color: #ffffff;
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   background-image: url("/images/cyberSecurityHome.jpg");
   background-repeat: no-repeat;
@@ -2955,20 +2957,24 @@ i.icon-circle {
   font-weight: 400;
   padding:1%;
 } */
+
 .headers h1{
-  color: rgb(255, 255, 255);
-  font-weight: 400;
+  color: rgb(255, 144, 40);
+  font-weight: 550;
   padding:1%;
   padding-top: 3%;
 }
 .headers h3{
-  color: rgb(194, 188, 188);
+  color: rgb(251, 250, 250);
   font-weight: 400;
-  padding:1%;
+  padding:2%;
+  /* border-style: groove;
+  border-color: #666565; */
+  margin: 2%;
 }
-.whoWeAre h4{
-  color: rgb(246, 110, 56);
-  font-weight: 600;
+.whoWeAre h3{
+  color: rgb(0, 0, 0);
+  font-weight: 700;
   text-align: left;
 }
 .card-header{
@@ -2984,6 +2990,7 @@ i.icon-circle {
 .card-text-inner{
   color: rgb(30, 29, 29);
   text-align: left;
+  line-height: 30px;
 }
 .card:hover{
   cursor: pointer;
@@ -2992,8 +2999,8 @@ i.icon-circle {
   -webkit-box-shadow:-2px 2px 22px -11px rgba(241, 236, 236, 0.75);
   -moz-box-shadow:-2px 2px 22px -11px rgba(228, 226, 226, 0.75);
 }
-.services-offer h4{
-  color: rgb(246, 110, 56);
+.services-offer h3{
+  color: rgb(27, 27, 27);
   font-weight: 600;
   text-align: left;
 }
@@ -3001,42 +3008,57 @@ i.icon-circle {
   font-weight: 500;
 }
 .strategy h2{
-  color: rgb(251, 250, 249);
-  font-weight: 500;
+  color: rgb(40, 48, 103);
+  font-weight: 700;
   text-align: left;
+  padding-left: 2%;
+}
+.strategy p{
+  color: rgb(40, 43, 63);
+  font-weight: 500;
+  font-size:medium;
+  text-align: left;
+  padding-left: 3%;
 }
 .inline{
-  color: rgb(220, 218, 218);
+  color: rgb(70, 69, 69);
+  font-weight: 400;
+  line-height: 2em;
+  letter-spacing: 50;
+  padding: 1%;
+}
+.inline h5{
+  color: rgb(70, 69, 69);
   font-weight: 400;
   line-height: 1.8em;
   letter-spacing: 20;
 }
 .link{
   color: blue;
-}
+} 
 .devops h2{
-  color: rgb(251, 250, 249);
-  font-weight: 500;
+  color:rgb(27, 27, 27);
+  font-weight: 700;
   text-align: left;
 }
 .iam h2{
-  color: rgb(251, 250, 249);
-  font-weight: 500;
+  color:rgb(27, 27, 27);
+  font-weight: 700;
   text-align: left;
 }
 .governance h2{
-  color: rgb(251, 250, 249);
-  font-weight: 500;
+  color: rgb(27, 27, 27);
+  font-weight: 700;
   text-align: left;
 }
 .protection h2{
-  color: rgb(251, 250, 249);
-  font-weight: 500;
+  color: rgb(27, 27, 27);
+  font-weight: 700;
   text-align: left; 
 }
 .cybersecurity h2{
-  color: rgb(251, 250, 249);
-  font-weight: 500;
+  color: rgb(27, 27, 27);
+  font-weight: 700;
   text-align: left; 
 }
 .img-fluid{
@@ -3044,9 +3066,8 @@ i.icon-circle {
   border-radius: 1%
 }
 .cybersecurityTool h2{
-  color: rgb(243, 169, 95);
-  font-weight: 600;
-  text-align: center; 
+  color: rgb(250, 150, 50);
+  font-weight: 700;
   padding: 10px;
 }
 .centered {
@@ -3065,15 +3086,68 @@ i.icon-circle {
 }
 .accbody{
   font-weight: 400;
-  color: #020e1e;
+  color: #010f22;
 }
 .card {
   background-color: #ffffff;
-  padding: 20px;
+  padding: 5px;
   border-radius: 10px;
+  /* min-height: 550px; */
 }
 
 .card:hover {
-  background-color: rgb(252, 216, 181);
+  background-color: #ffffff;
   box-shadow: 2px 2px 10px rgb(255, 255, 255);
 }
+.card-header{
+font-weight: 800;
+}
+.card-body {
+  margin-right: 5px;
+}
+.section2{
+  background-color: #e4e2e2;
+  padding: 0%;
+}
+.section{
+  padding:1%;
+  padding-left: 2%;
+}
+.card-text{
+  line-height: 1.8rem;
+}
+.card-body{
+  padding: 0.5rem;
+}
+.col-5 h2{
+ margin: -0.5rem;
+ line-height: -1rem;
+ color: #47668e;
+ font-weight: 900;
+}
+.texts{
+  font-size: medium;
+  line-height: 1.8rem;
+  padding: 0%;
+  color: rgb(60, 59, 59);
+  word-spacing: 1px;
+  letter-spacing: 0.3px;
+}
+.card-container {
+  overflow-x: scroll;
+}
+.bi1{
+  background-color: rgb(2, 62, 100);font-size:7px;border-radius: 2px;
+  margin-right: 3%;
+}
+.bi2{
+  background-color: orangered;font-size:7px;border-radius: 2px;
+  margin-right: 3%;
+  border: none;
+}
+.tools{
+  color: #030c54;
+  text-align: center;
+  font-weight: 800;
+}
+
