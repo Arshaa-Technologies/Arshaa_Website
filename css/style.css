@@ -1,4 +1,6 @@
-
+html{
+	scroll-behavior: smooth;
+}
 .isDisabled {
   color: currentColor;
   cursor: not-allowed;
@@ -42,7 +44,6 @@ section .section-title {
     background-color: transparent;
     border-color: transparent transparent #f3f3f3;
     border-bottom: 4px solid #ff6600 !important;
-
     font-weight: bold;
 }
 #tabs .nav-tabs .nav-link {
@@ -376,7 +377,7 @@ padding-bottom: 10px;}
  .jobs-listing.modern .cs-text li span { font-size: 12px; font-weight: 600; color: #404040; float: left; line-height: 21px; margin: 0 5px 0 0; min-width: 80px; word-spacing: 0; }
  .jobs-listing.modern .cs-text p { color: #555; display: inline; font-size: 14px; font-weight: 300; margin: 0; }
  .jobs-listing.modern .read-more { border-bottom: 1px dotted; font-weight: 600; color: #bbbbbb; display: inline-block; line-height: normal; font-size: 10px; margin: 0 0 0 5px; position: relative; }
- .jobs-listing.modern .read-more:before { content: ""; font-family: 'Lato', sans-serif; font-size: 14px; position: absolute; right: -15px; top: 1px; }
+ .jobs-listing.modern .read-more:before { content: ""; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, sans-serif; font-size: 14px; position: absolute; right: -15px; top: 1px; }
  .list-options { position: absolute; right: 20px; top: 25px; }
  .jobs-listing.modern .jobs-content .list-options { right: 0px; top: 15px; }
  .jobs-listing.modern .list-options .jobtype-btn { font-size: 11px; line-height: 24px; padding: 2px 10px 1px; position: initial; text-transform: uppercase; }
@@ -432,23 +433,23 @@ padding-bottom: 10px;}
  .apply-buttons .modal-header .close span { font-size: 24px; padding-top: 0; color: #000; opacity: 1; }
  
  body {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   color: #444444;
   background-color:#000;
 }
 
 a {
-  color: #006fbe;
+  color: #ff9808;
   text-decoration: none;
 }
 
 a:hover {
-  color: #008df1;
+  color: #f18d00;
   text-decoration: none;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 
 
@@ -522,6 +523,11 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 0;
   margin-left: 5px;
 }
+.navbar a i.bi4, .navbar a:focus i {
+  font-size: 20px;
+  line-height: 0;
+  margin-left: 5px;
+}
 .navbar > ul > li > a:before {
   content: "";
   position: absolute;
@@ -535,7 +541,7 @@ h1, h2, h3, h4, h5, h6 {
   transition: all 0.3s ease-in-out 0s;
 }
 .navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
-  color: #006fbe;
+  color: #ff8c08;
 }
 .navbar .dropdown ul {
   display: block;
@@ -611,11 +617,11 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (max-width: 991px) {
   .mobile-nav-toggle {
-    display: block;
+    /* display:flex; */
   }
 
   .navbar ul {
-    display: none;
+    /* display: flex; */
   }
 }
 .navbar-mobile {
@@ -1672,11 +1678,11 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (max-width: 991px) {
   .mobile-nav-toggle {
-    display: block;
+    /* display: block; */
   }
 
   .navbar ul {
-    display: none;
+    /* display: none; */
   }
 }
 .navbar-mobile {
