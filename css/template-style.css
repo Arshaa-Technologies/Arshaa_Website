@@ -11,7 +11,7 @@ p {
   line-height: 1.6rem;
 }
 a, a:link, a:visited, a:hover, a:active { 
-color: #777;
+color: rgb(21, 20, 20);
 }
 h1, h3, h4, h5, h6, .h1,.h3, .h4, .h5, .h6 {
   color: #000;                                         
@@ -33,7 +33,6 @@ h2.headline, .h2.headline {
   letter-spacing: 1px; 
 }
 h3.headline, .h3.headline {
-  font-size: 2.6rem;
   letter-spacing: -1px;
 }
 h4.headline, .h4.headline {
@@ -2688,7 +2687,7 @@ a.tab-label, a.tab-label:link, a.tab-label:visited, a.tab-label:hover, .backgrou
   text-align: center;
   font-size: 15px;
   position: relative;
-  float: right;
+  /* float: right; */
   margin-bottom: -35px;
   right: -35px;
   margin-top: -43px;
@@ -3012,11 +3011,21 @@ top: 20%;
   font-weight: 400;
   color: #010f22;
 }
-.card {
+
+.strategic_importance .card {
+  padding: 5px;
+  min-height: 240px;
+  border-width: 1px;
+  border-color: #cccbcb;
+  background-color: #06506a;
+}
+.strategic_importance .card p {
+font-weight: 500;
+padding: 10px;
+}
+.card  {
   background-color: #ffffff;
   padding: 5px;
-  border-radius: 10px;
-  /* min-height: 550px; */
 }
 
 .card:hover {
@@ -3062,7 +3071,7 @@ font-weight: 800;
 }
 .bi1{
   background-color: rgb(2, 62, 100);font-size:7px;border-radius: 2px;
-  margin-right: 3%;
+  margin-right: 1%;
 }
 .bi2{
   background-color: orangered;font-size:7px;border-radius: 2px;
@@ -3072,6 +3081,9 @@ font-weight: 800;
 .bi3{
   background-color: rgb(2, 62, 100);font-size:7px;border-radius: 2px;
   margin-right: 1%;
+}
+.bis{
+font-size:40px;
 }
 .tools{
   color: rgb(2, 70, 113);
@@ -3161,10 +3173,9 @@ padding: 10px;
   width:100%
 }
 .navlinks a{
-  padding-right: 20px;
   font-size: 15px;
-  font-weight: 500;
-  color: #030a65;
+  font-weight: 650;
+  color: #020754;
   text-decoration: none;
 }
 .sectionFour p{
@@ -3195,18 +3206,14 @@ padding: 10px;
 .line a:hover{
   color: orangered;
 }
-.learnmore-btn{
-  text-align: left;
-  padding-top: 2%;
-  padding-left: 14px;
-}
+
 .menu_wrapper{
   padding-left: 3%;
 }
 .learnmore-btn{
-  text-align: left;
+  text-align: center;
   padding-top: 2%;
-  padding-left: 13px;
+  padding-left: 1px;
 }
 .iam p{
   font-weight: normal;
@@ -3214,4 +3221,310 @@ padding: 10px;
 .home{
   padding-left: 2%;
   padding-bottom:0.5rem;
+}
+.servicesSec{
+  background-color: #fafbfc;
+}
+/* =========home page=================== */
+.u-align-center {
+  text-align: center;
+}
+body, aside, .u-sidebar-block, section, header, footer {
+  position: relative;
+}
+*, *:before, *:after{
+  box-sizing: border-box;
+}
+.u-section-4 .u-sheet-1 {
+  min-height: 607px;
+  position: relative;
+  margin: 0 auto;
+}
+/* @media (min-width: 992px) and (max-width: 1199px) .u-sheet {
+    width: 940px;
+} */
+.cover {
+  padding: 0px 30px;
+  position: relative;
+  margin-top: 10px;
+}
+.left {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.right {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.scroll-images {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  overflow-y: hidden;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+}
+.child img {
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.scroll-images::-webkit-scrollbar {
+  width: 10px;
+  height: 4px;
+  background-color: rgb(143, 141, 141);
+}
+
+.scroll-images::-webkit-scrollbar-thumb {
+  background-color: rgb(252, 90, 3);
+}
+
+.child {
+  min-width: 120px;
+  height: 100px;
+  margin: 1px 10px;
+  overflow: hidden;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.details{
+  color: #000;
+}
+.contact{
+  background-color: #022a49;
+}
+.info{
+  padding: 3%;
+}
+.strategic_importance .card {
+  padding: 5px 5px 0px 0px;
+  background: linear-gradient(270deg,#ff8c00 5px,transparent 0) 100% 0,linear-gradient(180deg,#ff8c00 5px,transparent 0) 100% 0;
+  background-repeat: no-repeat;
+  background-size: 56px 40px;
+}
+.strategic_importance p{
+  color: #010112;
+}
+.tool{
+  padding-left: 4%;
+  padding-right: 4%;
+}
+.headlines{
+  color: rgb(255, 254, 254);
+  text-align: left;
+  background-color: #022a49;
+}
+.headlines h3{
+  color: rgb(248, 248, 250);
+  font-family: Gordita,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif;;
+}
+body.cybersecurity{
+  /* font-family: 'Courier New', Courier, monospace; */
+  font-family: "Mona Sans","Mona Sans Header Fallback",-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+}
+/* =========================card hover================ */
+.serv{
+  --animate-duration: 2s;
+}
+ .serv .card {
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  margin-bottom: 3%;
+  padding-bottom: 20px;
+  min-height: 395px;
+}
+.serv .card-body {
+padding: 6%;
+}
+.serv .card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 5px 15px rgba(7, 7, 7, 0.3);
+}
+.serv .card:hover p{
+color: white;
+}
+.serv .card:hover h5{
+  color: rgb(8, 218, 250);
+  }
+.serv .card-img-top {
+  transition: transform 0.3s ease;
+}
+.serv .card:hover .card-img-top {
+  transform: scale(1.2);
+}
+.serv h5{
+  color: rgb(36, 2, 115);
+  font-weight: 800;
+  padding: 1%;
+  font-size:larger;
+}
+.serv p{
+  color: #000;
+  font-weight: 450;
+  padding: 1%;
+  font-family: Gordita,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif;;
+}
+.serv .container .row{
+  padding: 1%;
+}
+/* .serv .btn{
+  background-color: rgb(26, 26, 87);
+} */
+.serv .card:hover a{
+  color: rgb(250, 163, 3);
+}
+.serv .card:hover {
+  background-color: #06506a;
+  color: white;
+}
+@media (max-width: 768px) {
+  .strategic_importance .card{
+    min-height:450px;
+  }
+}
+@media (max-width: 425px) {
+  .strategic_importance .card{
+    min-height:250px;
+  }
+}
+@media (max-width: 768px) {
+  .serv .card{
+    min-height:470px;
+  }
+}
+@media (max-width: 1024px) {
+  .serv .card{
+    min-height:525px;
+  }
+}
+/* ====================vertical line======== */
+.vl {
+  border-left: 1.8px solid rgb(7, 1, 81);
+  height: 30px;
+  padding-left: 15px;
+  margin-left: 55px;
+}
+.strategy_content{
+  padding: 30px;
+}
+
+
+
+.strategy_serv{
+  --animate-duration: 2s;
+}
+ .strategy_serv .card {
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  margin-bottom: 3%;
+  padding-bottom: 20px;
+  min-height: 570px;
+  background-color: #f1f1f1;
+}
+.strategy_serv .card-body {
+padding: 6%;
+}
+.strategy_serv .card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 5px 15px rgba(7, 7, 7, 0.3);
+}
+.strategy_serv .card:hover p{
+color: rgb(251, 250, 250);
+}
+.strategy_serv .card:hover h5{
+  color: #FFDF7F;
+  }
+.strategy_serv .card-img-top {
+  transition: transform 0.3s ease;
+}
+.strategy_serv .card:hover .card-img-top {
+  transform: scale(1.2);
+}
+.strategy_serv h5{
+  color: rgb(255, 166, 0);
+  font-weight: 800;
+  padding: 1%;
+  font-size:larger;
+}
+.strategy_serv p{
+  color: #000;
+  font-weight: 450;
+  padding: 1%;
+  font-family: Gordita,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif;;
+}
+.strategy_serv .container .row{
+  padding: 1%;
+}
+.strategy_serv .card:hover a{
+  color: #FFDF7F;
+}
+.strategy_serv .card:hover {
+  background-color: #006666;
+  color: rgb(14, 13, 13);
+}
+@media (max-width: 768px) {
+  .strategy_serv .card{
+    min-height:400px;
+  }
+}
+@media (max-width: 1024px) {
+  .strategy_serv .card{
+    min-height:525px;
+  }
+}
+.strategy_serv .card-footer{
+  background-color: #f1f1f1;
+}
+.strategy_serv .card:hover .card-footer{
+  background-color: #202020;
+  color: black;
+  border-radius: 5px;
+}
+.strategy_content p{
+  word-spacing: 50%;
+  letter-spacing: 10%;
+  font-weight: 500;
+  color: #000;
+}
+.strategy_main_sec {
+  background: linear-gradient(to right, #0e013f 0%, #26014d 100%);
+  color: white;
+}
+
+/* ===============sample menu styles=============== */
+.sticky-side-nav.fetch-loaded.nav-generated {
+  visibility: visible;
+  opacity: 1;
+  z-index: 9999;
+}
+.sticky-side-nav.desktop {
+  display: inline-block;
+  width: 185px;
+  box-shadow: 0 0 4rem 0 rgb(0 0 0 / 30%);
+  border-top-right-radius: 3rem;
+  border-bottom-right-radius: 3rem;
+}
+.sticky-side-nav {
+  visibility: hidden;
+  opacity: 0;
+  z-index: -1;
+  /* position: absolute; */
+}
+
+html{
+  scroll-behavior: smooth;
+  scroll-padding-top: 500px;
 }
