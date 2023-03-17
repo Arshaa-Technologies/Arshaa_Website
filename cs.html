@@ -51,32 +51,38 @@
                 display: none;
             }
         }
+
         @media (max-width: 430px) {
             #image {
                 height: 150%;
             }
         }
+
         @media(max-width: 2000px) {
             #initial {
                 display: none;
             }
         }
+
         @media(max-width: 430px) {
             #initial {
                 display: flex;
             }
         }
+
         @media(max-width: 430px) {
             #initials {
                 display: none;
             }
         }
+
         .vertical {
             border-left: 1px solid black;
             height: 380px;
             position: absolute;
             left: 50%;
         }
+
         .verticall {
             border-left: 1px solid black;
             height: 80px;
@@ -88,75 +94,87 @@
 </head>
 
 <body class="size-1280 primary-color-red border-dark cybersecurity">
-    <header role="banner" class="position-absolute">
+     <header role="banner" class="position-absolute">
         <nav id="navbar" class="navbar fixed" style="background-color:#fff;">
             <div class="s-12 l-2"> <a href="index.html" class="logo"> <img class="logo-white img-fluid"
                         src="img/logo.png" alt=""> <img class="logo-dark img-fluid" src="img/logo.png" alt=""> </a>
             </div>
             <div class="top-nav s-12 l-10 center text-dark">
                 <li class="dropdown"><a href="#">Services<i class="bi bi-chevron-down"></i></a>
-                    <div class="top-nav s-12 l-10 center text-dark">
-                        <ul>
-                            <li><a href="csor.html">Oracle Fusion</a></li>
-                            <li class="isDisabled"><a>Digital Transformation</a></li>
-                            <li><a href="appmod.html"><i class="ri-checkbox-blank-circle-line"
-                                        style="padding-left:25px">&nbspApplication Services & Modernization</i></a></li>
-                            <li><a href="cloud.html"><i class="ri-checkbox-blank-circle-line"
-                                        style="padding-left:25px">&nbspCloud & DevOps</i></a></li>
-                        </ul>
-                    </div>
                     <ul>
-                        <li><a href="csor.html">Oracle Fusion</a></li>
-                        <li class="isDisabled"><a>Digital Transformation</a></li>
-                        <li><a href="appmod.html"><i class="ri-checkbox-blank-circle-line"
-                                    style="padding-left:25px;">&nbspApplication Services & Modernization</i></a></li>
-                        <li><a href="cloud.html"><i class="ri-checkbox-blank-circle-line"
-                                    style="padding-left:25px">&nbspCloud & DevOps</i></a></li>
-                        <li><a href="daai.html"><i class="ri-checkbox-blank-circle-line"
-                                    style="padding-left:25px">&nbspData & Analytics</i></a></li>
-                        <li><a href="qe.html">Enterprise Testing</a></li>
-                        <li class="isDisabled"><a href="cs.html">Security</a></li>
-                        <li class="link"><a href="strategy_cybersecurity.html"> <i class="ri-checkbox-blank-circle-line"
-                                    style="padding-left:25px">&nbspStrategy, Consulting and Advisory</i></a>
-                            <div class="top-nav s-12 l-10 center text-dark">
-                                <ul>
-                                    <p><a href="csor.html">Oracle Fusion</a></p>
-                                </ul>
-                            </div>
+                        <li class="dropdown bi_li"><a href="#">Digital <i class="bi bi-chevron-down arrow_down"
+                                    style="padding-left: 77px;font-size: 15px;"></i></a>
+                            <ul style="width: 350px;">
+                                <li class="dropdown"><a href="#">Oracle Fusion</a></li>
+                                <li class="dropdown"><a href="#">Application Management Services (AMS)</a></li>
+                                <li class="dropdown"><a href="#">Cloud and DevOps</a></li>
+                            </ul>
                         </li>
-
-                        <li><a href="cyber_security_services.html"><i class="ri-checkbox-blank-circle-line"
-                                    style="padding-left:25px">&nbspCloud
-                                    Security</i></a></li>
-                        <li><a href="devops_service.html"><i class="ri-checkbox-blank-circle-line"
-                                    style="padding-left:25px">&nbspDevSecOps</i></a></li>
-                        <li><a href="governanceRisk_compilance.html"><i class="ri-checkbox-blank-circle-line"
-                                    style="padding-left:25px">&nbspGovernance, Risk and Compliance</i></a></li>
-                        <li><a href="iam_governance_cybersecurity.html"><i class="ri-checkbox-blank-circle-line"
-                                    style="padding-left:25px">&nbspIAM and Governance</i></a></li>
-                        <li><a href=""><i class="ri-checkbox-blank-circle-line"
-                                    style="padding-left:25px">&nbspApplication Security</i></a></li>
-                        <li><a href="vulnerability_threat_service.html"><i class="ri-checkbox-blank-circle-line"
-                                    style="padding-left:25px">&nbspVulnerability and Threat Management</i></a></li>
-                        <li><a href="penetration_testing_service.html"><i class="ri-checkbox-blank-circle-line"
-                                    style="padding-left:25px">&nbspPenetration Testing</i></a></li>
-                        <li><a href="data_protection_privacy_service.html"><i class="ri-checkbox-blank-circle-line"
-                                    style="padding-left:25px">&nbspData Protection and Privacy</i></a></li>
-                        <li><a href="cyber_threat.html"><i class="ri-checkbox-blank-circle-line"
-                                    style="padding-left:25px">&nbspCyber Threat and Defense Operations (NextGen
-                                    SOC-SOAR)</i></a></li>
-                        <li><a href="sn.html">Service Now</a></li>
+                        <li class="dropdown"><a href="cs.html">Security<i class="bi bi-chevron-down arrow_down"
+                                    style="padding-left: 72px;font-size: 15px;"></i></a>
+                            <ul style="width: 350px;">
+                                <li class="dropdown"><a href="strategy_cybersecurity.html">Consulting and Advisory
+                                        Services</a></li>
+                                <li class="dropdown"><a href="cyber_security_services.html">Cloud Security Services</a>
+                                </li>
+                                <li class="dropdown"><a href="devops_service.html">DevOps and DevSecOps</a></li>
+                                <li class="dropdown"><a href="vulnerability_threat_service.html">Vulnerability and
+                                        Threat Management</a></li>
+                                <li class="dropdown"><a href="iam_governance_cybersecurity.html">IAM and Governance
+                                        (IAMG)</a></li>
+                                <li class="dropdown"><a href="governanceRisk_compilance.html">Governance, Risk and
+                                        Compliance</a></li>
+                                <li class="dropdown"><a href="penetration_testing_service.html">Penetration Testing</a>
+                                </li>
+                                <li class="dropdown"><a href="data_protection_privacy_service.html">Data Protection and
+                                        Privacy</a></li>
+                                <li class="dropdown"><a href="cyber_threat.html">Cyber Threat and Defense Operations</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="dropdown"><a href="#">Cloud<i class="bi bi-chevron-down arrow_down"
+                                    style="padding-left: 87px;font-size: 15px;"></i></a>
+                            <ul style="width: 350px;">
+                                <li class="dropdown"><a href="#">Strategy, Consulting and Advisory</a></li>
+                                <li class="dropdown"><a href="#">Cloud Infrastructure Protection</a></li>
+                                <li class="dropdown"><a href="#">DevSecOps and Application Security</a></li>
+                                <li class="dropdown"><a href="#">Vulnerability and Threat Management</a></li>
+                                <li class="dropdown"><a href="#">Data Protection and Privacy</a></li>
+                                <li class="dropdown"><a href="#">Governance, Risk and Compliance</a></li>
+                                <li class="dropdown"><a href="#">Cloud IAM and Governance</a></li>
+                                <li class="dropdown"><a href="#">Cloud SIEM Consulting and Implementation,<br /> Support
+                                        Services</a></li>
+                                <li class="dropdown"><a href="#">Secure Cloud Migrations</a></li>
+                                <li class="dropdown"><a href="#">Cloud Architecture Security Review </a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown"><a href="#">Analytics<i class="bi bi-chevron-down arrow_down"
+                                    style="padding-left: 65px;font-size: 15px;"></i></a>
+                            <ul style="width: 350px;">
+                                <li class="dropdown"><a href="#">Business Intelligence Implementation</a></li>
+                                <li class="dropdown"><a href="#">Enterprise Data Warehousing</a></li>
+                                <li class="dropdown"><a href="#">Reporting & Data Visualization</a></li>
+                                <li class="dropdown"><a href="#">Data Migrations</a></li>
+                                <li class="dropdown"><a href="#">Data Engineering</a></li>
+                                <li class="dropdown"><a href="#">Data Science</a></li>
+                            </ul>
+                        </li>
                     </ul>
                 </li>
                 <li><a href="career/careers.html">Careers</a></li>
-                <li><a href="contact.html">Contact Us</a></li>
                 <li class="dropdown"><a href="#">Company<i class="bi bi-chevron-down"></i></a>
                     <ul>
                         <li><a href="about.html">About Us</a></li>
                         <li><a href="loca.html">Locations</a></li>
                     </ul>
                 </li>
-                <li><a href="#contact">Contact Us</a></li>
+                <li><a href="#contact">Get In Touch</a></li>
+                <div class="search-container">
+                    <form action="" method="get">
+                        <input class="search_engine" type="text" placeholder="Search...">
+                        <button type="submit"><i class="fa fa-search"></i></button>
+                    </form>
+                </div>
             </div>
         </nav>
     </header>
@@ -174,7 +192,7 @@
                         <div class="home" style="padding-bottom:0.5rem;padding-left: 2%;"> <a href="cs.html"
                                 class="text-primary-hover" style="color: rgb(255, 255, 255);text-decoration: none;">Home
                                 &nbsp&nbsp<span class="text-orange">/</span> &nbsp&nbsp Services &nbsp&nbsp<span
-                                    class="text-orange">/</span>&nbsp&nbsp Cyber Security</a>
+                                    class="text-orange">/</span>&nbsp &nbsp Cyber Security</a>
                         </div>
                     </div>
                 </div>
@@ -202,7 +220,8 @@
                     <div class="row" style=" align-items: center;">
                         <div class="col-12 col-sm-12 col-md-12 col-lg-12">
                             <div class="row">
-                                <img id="image" src="images/cyberSecurityMain.jpg" style="width:100%;height:auto;">
+                                <img id="image" src="images/cyberSecurityMain.jpg"
+                                    style="width:100%;height:auto;opacity: 0.9;">
                                 <div class="centered text-center">
                                     <div class="row wow animate__animated animate__fadeInLeft"
                                         style="animation-duration: 1.5s;">
@@ -278,7 +297,7 @@
             </section>
             <section id="strategy">
                 <nav class="navbar navbar-expand-lg bg-body-tertiary">
-                    <div class="container" >
+                    <div class="container">
                         <div class="row">
                             <!-- <div class="col-12 col-lg-0 col-md-12 col-sm-12">
                                  <h3 class="navbar-brand" style="padding-top: 5%;">SERVICES <br />WE OFFER</h3> 
@@ -290,25 +309,25 @@
                                 </button>
                             </div> -->
                             <div class="col-12 col-lg-12 col-md-12 col-sm-12">
-                                <div class="row ">
-                                    <div class="collapse navbar-collapse" id="navbarSupportedContent" style="text-align:justify">
-                                        <ul class="navbar-nav me-auto mb-2 mb-lg-0" >
+                                <div class="row">
+                                    <div class="collapse navbar-collapse" id="navbarSupportedContent"
+                                        style="text-align:justify">
+                                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                                             <span class="text-primary bord-ts-32"></span>
                                             <div class="vl"></div>
-                                                    <li class="navlinks" style="font-size: 15px;"><a href="#strategy">&nbsp STRATEGIC IMPORTANCE</a></li>
-                                                    
-                                                    <div class="vl"></div>
-                                                    <li class="navlinks"><a href="#cyberresili">&nbsp CYBER RESILIENCE</a></li>
-                                                    
-                                                    <div class="vl"></div>
-                                                    <li class="navlinks"><a href="#servweoffer">&nbsp SERVICES WE OFFER</a></li>
-                                                    
-                                                    <div class="vl"></div>
-                                                    <li class="navlinks"><a href="#toolstech">&nbsp TOOLS & TECHNOLOGIES</a></li>
-                                                    
-                                                    <div class="vl"></div>
-                                                    <li class="navlinks"><a href="#contact">&nbsp CONTACT</a></li>
-                                                    <div class="vl" style="margin-left: 60px;"></div>
+                                            <li class="navlinks" style="font-size: 15px;"><a href="#strategy">&nbsp
+                                                    STRATEGIC IMPORTANCE</a></li>
+                                            <div class="vl"></div>
+                                            <li class="navlinks"><a href="#ourapproach">&nbsp OUR APPROACH</a></li>
+
+                                            <div class="vl"></div>
+                                            <li class="navlinks"><a href="#servweoffer">&nbsp OUR SERVICES</a></li>
+
+                                            <div class="vl"></div>
+                                            <li class="navlinks"><a href="#toolstech">&nbsp TOOLS & TECHNOLOGIES,
+                                                    COLLABORATION PARTNERS</a>
+                                            </li>
+                                            <div class="vl" style="margin-left: 60px;"></div>
                                         </ul>
                                     </div>
                                 </div>
@@ -793,20 +812,27 @@
                 </div>
              </div> -->
 
-            <section class="cyber_strategic wow animate__animated animate__slideInUp animate__delay-0.5s" >
+
+
+            <section class="cyber_strategic wow animate__animated animate__slideInUp animate__delay-0.5s">
                 <div class="headlines">
-                    <h3 class="container"><span class="text-primary bord-ts-32"></span>Cybersecurity - It's strategic Importance..!
+                    <h3 class="container"><span class="text-primary bord-ts-32"></span>Cybersecurity - It's strategic
+                        Importance..!
                     </h3>
                 </div>
-                <div class="strategic_importance  align-items-center container" style="padding-top: 40px;padding-bottom: 10px;" >
+                <!-- <div class="strategic_importance  align-items-center container"
+                    style="padding-top: 40px;padding-bottom: 10px;">
                     <div class="row">
                         <div class="col-12 col-lg-4 col-md-4 col-sm-12">
-                            <div class="card shadow p-3 mb-5 bg-white rounded" >
+                            <div class="card shadow p-3 mb-5 bg-white rounded">
                                 <div class="card-body">
                                     <p class="card-text ">In the world of
-                                        Rapid Digitalization and Sophisticated Cyber adversaries; businesses endurance depends upon
-                                        the ability to safeguard systems and information. Organizations need to rethink for Cyber
-                                        resilience—mitigate risk, strategically deploy assets, ROSI and assign accountability.</p>
+                                        Rapid Digitalization and Sophisticated Cyber adversaries; businesses endurance
+                                        depends upon
+                                        the ability to safeguard systems and information. Organizations need to rethink
+                                        for Cyber
+                                        resilience—mitigate risk, strategically deploy assets, ROSI and assign
+                                        accountability.</p>
                                 </div>
                             </div>
                         </div>
@@ -814,8 +840,10 @@
                             <div class="card shadow p-3 mb-5 bg-white rounded">
                                 <div class="card-body">
                                     <p class="card-text">Preparing you
-                                        towards securing business through risk reduction realization and by ensuring your people,
-                                        processes, technologies, data and services are in place to empower secure business
+                                        towards securing business through risk reduction realization and by ensuring
+                                        your people,
+                                        processes, technologies, data and services are in place to empower secure
+                                        business
                                         operations while effectively preventing, detecting, and responding to attacks by
                                         sophisticated cyber adversaries.</p>
                                 </div>
@@ -825,85 +853,789 @@
                             <div class="card shadow p-3 mb-5 bg-white rounded">
                                 <div class="card-body">
                                     <p class="card-text" id="cyberresili">Our strategic
-                                        solutioning includes methodical best practice approaches that are designed to deliver better
-                                        confidence with how you secure your business. Continuous review, risk assessment, monitoring
-                                        and improvement builds a responsive security posture leading to cyber resilient ecosystem.</p>
+                                        solutioning includes methodical best practice approaches that are designed to
+                                        deliver better
+                                        confidence with how you secure your business. Continuous review, risk
+                                        assessment, monitoring
+                                        and improvement builds a responsive security posture leading to cyber resilient
+                                        ecosystem.</p>
                                 </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+            </section>
+            <section>
+                <div style="background-color: rgb(247, 245, 245);">
+                    <div class="container text-center">
+                        <div class="row" style=" align-items: center;">
+                            <div class="col-12 col-md-6 col-lg-4 col-sm-12">
+                                <img class="img-fluid wow animate__animated animate__fadeInLeft" src="images/20642.jpg"
+                                    style="min-width: 100%;padding-bottom: 3%;animation-duration: 2s;padding-right: 60PX;padding-left: 60PX;"
+                                    alt="">
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-8 col-sm-12" style="padding: 1%;">
+                                <p class="card-text" style="text-align: justify;font-weight: 500;color: black;">
+                                    In the world of Rapid Digitalization and Sophisticated Cyber adversaries;
+                                    Organizations need to rethink their security posture, as evolving threats and
+                                    operational challenges emerge. Industry experts acquiesce that it's no longer a case
+                                    of 'if' you'll be affected by an attack, it's a case of 'when'.<br /> Businesses
+                                    endurance depends upon the ability to embrace effective security strategies
+                                    including comprehensive cybersecurity mesh; towards building a collaborative Cyber
+                                    resilience ecosystem—mitigate risk, strategically deploy assets, ROSI and assign
+                                    accountability.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div style="background-color: rgb(241, 246, 253);">
+                    <div class="container text-center">
+                        <div class="row" style=" align-items: center;">
+                            <div class="col-12 col-md-6 col-lg-4 col-sm-12">
+                                <img class="img-fluid wow animate__animated animate__fadeInLeft"
+                                    src="images/2803006_17569.jpg"
+                                    style="min-width: 100%;padding-bottom: 3%;animation-duration: 2s;padding-right: 70PX;padding-left: 70PX;"
+                                    alt="">
+                            </div>
+                            <div class="col-12 col-md-6 col-lg-8 col-sm-12" style="padding: 1%;">
+                                <p class="card-text" style="text-align: justify;font-weight: 500;color: black;">
+                                    Preparing you towards securing business through risk reduction realization and by
+                                    ensuring your people, processes, technologies, data, and services are in place to
+                                    empower secure business operations while effectively preventing, detecting, and
+                                    responding to attacks by sophisticated cyber adversaries.<br />Our strategic
+                                    solutioning includes methodical best practice approaches that are designed to
+                                    deliver better confidence with how you secure your business. Continuous review, risk
+                                    assessment, monitoring and improvement builds a responsive security posture leading
+                                    to cyber resilient ecosystem.
+                                </p>
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
-            <section style="color: #01062e;">
-                <div style="background-color: white;padding-left: 4%;">
-                    <div class="container text-center" style="padding: 2%;">
-                        <div class="row" style=" align-items: center;">
-                            <div class="col-12 col-md-6 col-lg-6 col-sm-12" style="padding: 1%;">
-                                <h3 style="padding-top:10px; padding-left: 0%;color: rgb(8, 6, 133);text-align: left;">
-                                    <span class="text-primary bord-ts-32"></span>Cyber Resilient
-                                </h3>
-                                <p class="card-text" style="text-align: justify;font-weight: 500;color: black;">Cyber resilience is the ability for an organization to adapt to disruptions caused by cyber security incidents while maintaining continuous business operations. This includes the ability to detect, manage and recover from incidents.
-                                    Reduce your cyber risk through practical, actionable, real-world advice and solutions that measurably improve your capability to respond to the rapidly evolving cyber threat landscape.</p>
-                            </div>
-                            <div class="col-12 col-md-6 col-lg-6 col-sm-12">
-                                <img class="img-fluid wow animate__animated animate__fadeInRight"
-                                    src="images/CyberRésilience.jpg"
-                                    style="min-width: 100%;padding-bottom: 3%;animation-duration: 2s;padding-left: 20%;padding-top: 2%;padding-left: 20%;"
-                                    alt="">
-                            </div>
-                        </div>
-                    </div>
+            <!-- <section class="cyber_resilience_slide">
+                <div class="headlines">
+                    <h3 class="container"><span class="text-primary bord-ts-32"></span>Focused Insights
+                    </h3>
                 </div>
-                <div style="background-color:#F2F1F1;">
-                <div class="container text-center" id="cyberSec" style="padding: 3%;">
-                    <div class="row" style=" align-items: center;">
-                        <div class="col-12 col-md-6 col-lg-6 col-sm-12">
-                            <img class="img-fluid wow animate__animated animate__fadeInLeft"
-                                src="images/Zero-Trust-image.jpg"
-                                style="min-width: 100%;padding-bottom: 3%;animation-duration: 2s;padding-right: 20%;padding-top: 2%;"
-                                alt="">
-                        </div>
-                        <div class="col-12 col-md-6 col-lg-6 col-sm-12" style="padding: 1%;">
-                            <h3 style="padding-top:10px;color: rgb(8, 6, 133);text-align: left;"><span
-                                    class="text-primary bord-ts-32"></span>Zero Trust
-                            </h3>
-                            <div>
-                                <p class="card-text" style="text-align:justify;font-weight: 500;color: black;">Zero Trust is a
-                                    framework for effectively securing digital infrastructure and data for today's
-                                    modern digital transformation. Founded on the principle of 'never trust, always
-                                    verify', Zero Trust is a very well thought and effectively designed cyber strategy
-                                    that ensures highest level of cyber protection for any organization. It enables
-                                    organizations to prevent data breaches and protect against sophisticated cyber
-                                    threats by eliminating 'implicit digital trust' from Core IT ecosystem.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-                <div  style="background-color:white;padding: 3%;" >
-                    <div class="container text-center" style="padding-left: 2%;">
-                        <div class="row" style=" align-items: center;">
-                            <div class="col-12 col-md-6 col-lg-6 col-sm-12" style="padding: 3%;">
-                                <h3 style="padding-top:10px;color: rgb(8, 6, 133);text-align: left;"><span
-                                        class="text-primary bord-ts-32"></span>Continuous Review, Risk Assessment and
-                                    Improvement</h3>
-                                <div>
-                                    <p class="card-text" style="text-align: justify;font-weight: 500;color: black;" id="servweoffer">Our DevSecOps Services and Framework
-                                        provides 'Shift Left' approach
-                                        towards DevOps Security. This is a collaborative approach to detect operational
-                                        security gaps in every phase of the software lifecycle process, from design to
-                                        deployment. It ensures that reliability and compliance are considered at the
-                                        early stages of development.</p>
+                <div id="carouselExample" class="carousel slide">
+                    <div class="container">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active cyber_slide_item"
+                                style="background-color: rgb(241, 242, 242);border-radius: 5px;">
+                                <div class="container">
+                                    <div class="row" style=" align-items: center;">
+                                        <div class="col-12 col-md-6 col-lg-8 col-sm-12"
+                                            style="padding-left: 60px;padding-top: 10px;">
+                                            <h3 style="padding-top:10px;color: rgb(8, 6, 133);text-align: left;">
+                                                <span class="text-primary bord-ts-32"></span>Cyber Resilience
+                                            </h3>
+                                            <p class="card-text"
+                                                style="text-align: justify;font-weight: 500;color: black;">
+                                                Cyber
+                                                resilience enables your organization to adapt to disruptions caused
+                                                by cyber
+                                                security incidents while maintaining continuous business operations.
+                                                It emphasises
+                                                on your ability to detect, manage, and recover from incidents.<br />
+                                                Reduce your cyber
+                                                risk through our practical, actionable, real-world advice and
+                                                solutions that
+                                                measurably improve your capability to respond to the rapidly
+                                                evolving cyber threat
+                                                landscape.<br /> Through Zero-Trust principles, we enable
+                                                organizations build cyber
+                                                resilience and enhance digital trust.
+                                            </p>
+                                        </div>
+                                        <div class="col-12 col-md-6 col-lg-4 col-sm-12">
+                                            <img class="img-fluid" src="images/cyber_resilience_img.png" alt=""
+                                                style="padding-right: 50px;">
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="col-12 col-md-6 col-lg-6 col-sm-12">
-
-                                <img class="img-fluid wow animate__animated animate__fadeInRight"
-                                    src="images/continuous_review.jpg"
-                                    style="min-width: 100%;padding-bottom: 3%;animation-duration: 2s;padding-left: 20%;padding-top: 2%;padding-left: 20%;"
-                                    alt="">
+                            <div class="carousel-item cyber_slide_item"
+                            style="background-color: rgb(241, 242, 242);border-radius: 5px;">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-12 col-md-6 col-lg-8 col-sm-12" style="padding-left: 50px;padding-top: 10px;">
+                                            <h3 style="padding-top:10px;color: rgb(8, 6, 133);text-align: left;">
+                                                <span class="text-primary bord-ts-32"></span>Zero Trust
+                                            </h3>
+                                            <p class="card-text"
+                                                style="text-align: justify;font-weight: 500;color: black;">
+                                                Zero Trust is a security framework based on the belief that
+                                                every user, device,
+                                                and IP address accessing a resource is a threat until proven
+                                                otherwise. Under
+                                                the concept of “never trust, always verify,” it requires that
+                                                security teams
+                                                implement strict access controls and verify anything that tries
+                                                to connect to an
+                                                enterprise's network.<br /> It recommends organizations to
+                                                optimize capabilities
+                                                towards sensitive data identification, strictly enforcing access
+                                                control,
+                                                scrutinizing endpoints, enabling real-time threat detection,
+                                                user behavior
+                                                analytics and monitoring, building effective security and
+                                                incident response
+                                                program.
+                                            </p>
+                                        </div>
+                                        <div class="col-12 col-md-6 col-lg-4 col-sm-12">
+                                            <img class="img-fluid" src="images/zero_trust_cyber (1).png" alt=""
+                                                style="padding-right: 50px;padding-left: 20px;">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item cyber_slide_item"
+                            style="background-color: rgb(241, 242, 242);border-radius: 5px;">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-12 col-md-6 col-lg-8 col-sm-12" style="padding-left: 50px;padding-top: 10px;">
+                                            <h3 style="padding-top:10px;color: rgb(8, 6, 133);text-align: left;">
+                                                <span class="text-primary bord-ts-32"></span>Continuous Review,
+                                                Risk Assessment and
+                                                Improvement
+                                            </h3>
+                                            <p class="card-text"
+                                                style="text-align: justify;font-weight: 500;color: black;">
+                                                It is a proactive and continuous process that helps you
+                                                respond
+                                                to change and facilitate continuous improvement in your
+                                                business cyber risk
+                                                profile. Risks change with time and circumstances. Hence the
+                                                need to monitor
+                                                them and their environments, the implementation of risk
+                                                treatment plans, the
+                                                system set up to control the risks and the established
+                                                contexts and risk
+                                                priorities.<br /> Review is a continuous process, and it
+                                                ensures the plan stays
+                                                relevant and up-to-date. The inevitable regular repetition
+                                                of the risk
+                                                management cycle is based on the review process.
+                                            </p>
+                                        </div>
+                                        <div class="col-12 col-md-6 col-lg-4 col-sm-12">
+                                            <img class="img-fluid" src="images/continous_review_cyber.png" alt=""
+                                                style="padding-right: 50px;">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item cyber_slide_item"
+                            style="background-color: rgb(241, 242, 242);border-radius: 5px;">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-12 col-md-6 col-lg-8 col-sm-12" style="padding-left: 50px;padding-top: 39px;">
+                                            <h3 style="padding-top:10px;color: rgb(8, 6, 133);text-align: left;">
+                                                <span class="text-primary bord-ts-32"></span>Cybersecurity Mesh
+                                                Architecture
+                                            </h3>
+                                            <p class="card-text"
+                                                style="text-align: justify;font-weight: 500;color: black;">
+                                                Cybersecurity mesh is a collaborative ecosystem of tools and
+                                                controls to secure a modern, distributed enterprise. It
+                                                builds on a strategy of integrating composable, distributed
+                                                security tools by centralizing the data and control plane to
+                                                achieve more effective collaboration between tools.<br />
+                                                Outcomes include enhanced capabilities for detection, more
+                                                efficient responses, consistent policy, posture and playbook
+                                                management, and more adaptive and granular access control —
+                                                all of which lead to better security
+                                            </p>
+                                        </div>
+                                        <div class="col-12 col-md-6 col-lg-4 col-sm-12">
+                                            <img class="img-fluid" src="images/cyber_security_mesh.png" alt=""
+                                                style="padding-left: 90px;padding-right: 90px;">
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                            data-bs-slide="prev" style="padding-right: 120px;">
+                            <i class="bi bi-caret-left-fill" style="color:black;"></i>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                            data-bs-slide="next" style="padding-left: 120px;">
+                            <i class="bi bi-caret-right-fill" style="color: black;"></i>
+                        </button>
+                    </div>
+                </div>
+            </section> -->
+            <section>
+                <div class="headlines">
+                    <h3 class="container"><span class="text-primary bord-ts-32"></span>Focused Insights
+                    </h3>
+                </div>
+                <div class="accordion container" id="accordionExample">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingOne">
+                        <button style="font-weight: 700;color:#02276a;" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                          Cyber Resilience
+                        </button>
+                      </h2>
+                      <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <div class="container">
+                                <div class="row" style=" align-items: center;">
+                                    <div class="col-12 col-md-6 col-lg-8 col-sm-12"
+                                        style="padding-left: 60px;">
+                                        <!-- <h3 style="padding-top:10px;color: rgb(8, 6, 133);text-align: left;">
+                                            <span class="text-primary bord-ts-32"></span>Cyber Resilience
+                                        </h3> -->
+                                        <p class="card-text"
+                                            style="text-align: justify;font-weight: 500;color: black;">
+                                            Cyber
+                                            resilience enables your organization to adapt to disruptions caused
+                                            by cyber
+                                            security incidents while maintaining continuous business operations.
+                                            It emphasises
+                                            on your ability to detect, manage, and recover from incidents.<br/>
+                                            Reduce your cyber
+                                            risk through our practical, actionable, real-world advice and
+                                            solutions that
+                                            measurably improve your capability to respond to the rapidly
+                                            evolving cyber threat
+                                            landscape.<br /> Through Zero-Trust principles, we enable
+                                            organizations build cyber
+                                            resilience and enhance digital trust.
+                                        </p>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-lg-4 col-sm-12">
+                                        <img class="img-fluid" src="images/cyber_resilience_img.png" alt=""
+                                            style="padding-right: 50px;">
+                                    </div>
+                                </div>
+                            </div>     </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingTwo">
+                        <button style="font-weight: 700;color:#02276a;" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                          Zero Trut
+                        </button>
+                      </h2>
+                      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-12 col-md-6 col-lg-8 col-sm-12" style="padding-left: 50px;">
+                                        <!-- <h3 style="padding-top:10px;color: rgb(8, 6, 133);text-align: left;">
+                                            <span class="text-primary bord-ts-32"></span>Zero Trust
+                                        </h3> -->
+                                        <p class="card-text"
+                                            style="text-align: justify;font-weight: 500;color: black;">
+                                            Zero Trust is a security framework based on the belief that
+                                            every user, device,
+                                            and IP address accessing a resource is a threat until proven
+                                            otherwise. Under
+                                            the concept of “never trust, always verify,” it requires that
+                                            security teams
+                                            implement strict access controls and verify anything that tries
+                                            to connect to an
+                                            enterprise's network.<br /> It recommends organizations to
+                                            optimize capabilities
+                                            towards sensitive data identification, strictly enforcing access
+                                            control,
+                                            scrutinizing endpoints, enabling real-time threat detection,
+                                            user behavior
+                                            analytics and monitoring, building effective security and
+                                            incident response
+                                            program.
+                                        </p>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-lg-4 col-sm-12">
+                                        <img class="img-fluid" src="images/zero_trust_cyber (1).png" alt=""
+                                            style="padding-right: 50px;padding-left: 20px;">
+                                    </div>
+                                </div>
+                            </div>                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingThree">
+                        <button style="font-weight: 700;color:#02276a;" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                         Continuous Review, Risk Assessment and Improvement
+                        </button>
+                      </h2>
+                      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-12 col-md-6 col-lg-8 col-sm-12" style="padding-left: 50px;">
+                                        <!-- <h3 style="padding-top:10px;color: rgb(8, 6, 133);text-align: left;">
+                                            <span class="text-primary bord-ts-32"></span>Continuous Review,
+                                            Risk Assessment and
+                                            Improvement
+                                        </h3> -->
+                                        <p class="card-text"
+                                            style="text-align: justify;font-weight: 500;color: black;">
+                                            It is a proactive and continuous process that helps you
+                                            respond
+                                            to change and facilitate continuous improvement in your
+                                            business cyber risk
+                                            profile. Risks change with time and circumstances. Hence the
+                                            need to monitor
+                                            them and their environments, the implementation of risk
+                                            treatment plans, the
+                                            system set up to control the risks and the established
+                                            contexts and risk
+                                            priorities.<br /> Review is a continuous process, and it
+                                            ensures the plan stays
+                                            relevant and up-to-date. The inevitable regular repetition
+                                            of the risk
+                                            management cycle is based on the review process.
+                                        </p>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-lg-4 col-sm-12">
+                                        <img class="img-fluid" src="images/continous_review_cyber.png" alt=""
+                                            style="padding-right: 50px;">
+                                    </div>
+                                </div>
+                            </div>                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingFour">
+                          <button style="font-weight: 700;color:#02276a;" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                            Cybersecurity Mesh Architecture
+                          </button>
+                        </h2>
+                        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                          <div class="accordion-body">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-12 col-md-6 col-lg-8 col-sm-12" style="padding-left: 50px;">
+                                        <!-- <h3 style="padding-top:10px;color: rgb(8, 6, 133);text-align: left;">
+                                            <span class="text-primary bord-ts-32"></span>Cybersecurity Mesh
+                                            Architecture
+                                        </h3> -->
+                                        <p class="card-text"
+                                            style="text-align: justify;font-weight: 500;color: black;">
+                                            Cybersecurity mesh is a collaborative ecosystem of tools and
+                                            controls to secure a modern, distributed enterprise. It
+                                            builds on a strategy of integrating composable, distributed
+                                            security tools by centralizing the data and control plane to
+                                            achieve more effective collaboration between tools.<br />
+                                            Outcomes include enhanced capabilities for detection, more
+                                            efficient responses, consistent policy, posture and playbook
+                                            management, and more adaptive and granular access control —
+                                            all of which lead to better security
+                                        </p>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-lg-4 col-sm-12">
+                                        <img class="img-fluid" src="images/cyber_security_mesh.png" alt=""
+                                            style="padding-left: 90px;padding-right: 90px;">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                      </div>
+                  </div>
+            </section>
+            <!-- <section style="min-height: 490px;">
+                <div class="headlines">
+                    <h3 class="container"><span class="text-primary bord-ts-32"></span>Focused Insights
+                    </h3>
+                </div>
+                <div id="carouselExample" class="carousel slide">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="container text-center" style="padding: 2%;">
+                                <div class="row" style=" align-items: center;">
+                                    <div class="col-12 col-md-6 col-lg-6 col-sm-12" style="padding: 1%;">
+                                        <h3
+                                            style="padding-top:10px; padding-left: 0%;color: rgb(8, 6, 133);text-align: left;">
+                                            <span class="text-primary bord-ts-32"></span>Cyber Resilience
+                                        </h3>
+                                        <p class="card-text" style="text-align: justify;font-weight: 500;color: black;">
+                                            Cyber
+                                            resilience enables your organization to adapt to disruptions caused
+                                            by cyber
+                                            security incidents while maintaining continuous business operations.
+                                            It emphasises
+                                            on your ability to detect, manage, and recover from incidents.<br />
+                                            Reduce your cyber
+                                            risk through our practical, actionable, real-world advice and
+                                            solutions that
+                                            measurably improve your capability to respond to the rapidly
+                                            evolving cyber threat
+                                            landscape.<br /> Through Zero-Trust principles, we enable
+                                            organizations build cyber
+                                            resilience and enhance digital trust.
+                                        </p>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-lg-6 col-sm-12">
+                                        <img class="img-fluid" src="images/cyber_resilience_img.png"
+                                            style="min-width: 100%;padding-bottom: 3%;animation-duration: 2s;padding-left: 20%;padding-top: 2%;padding-left: 20%;"
+                                            alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="container text-center" id="cyberSec" style="padding: 3%;">
+                                <div class="row" style=" align-items: center;">
+                                    <div class="col-12 col-md-6 col-lg-6 col-sm-12">
+                                        <img class="img-fluid" src="images/zero_trust_cyber (1).png"
+                                            style="min-width: 100%;padding-bottom: 3%;animation-duration: 2s;padding-right: 20%;padding-top: 2%;"
+                                            alt="">
+                                    </div>
+                                    <div class="col-12 col-md-6 col-lg-6 col-sm-12" style="padding: 1%;">
+                                        <h3 style="padding-top:10px;color: rgb(8, 6, 133);text-align: left;">
+                                            <span class="text-primary bord-ts-32"></span>Zero Trust
+                                        </h3>
+                                        <div>
+                                            <p class="card-text"
+                                                style="text-align:justify;font-weight: 500;color: black;">
+                                                Zero Trust is a security framework based on the belief that
+                                                every user, device,
+                                                and IP address accessing a resource is a threat until proven
+                                                otherwise. Under
+                                                the concept of “never trust, always verify,” it requires that
+                                                security teams
+                                                implement strict access controls and verify anything that tries
+                                                to connect to an
+                                                enterprise's network.<br /> It recommends organizations to
+                                                optimize capabilities
+                                                towards sensitive data identification, strictly enforcing access
+                                                control,
+                                                scrutinizing endpoints, enabling real-time threat detection,
+                                                user behavior
+                                                analytics and monitoring, building effective security and
+                                                incident response
+                                                program.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="container text-center" style="padding-left: 2%;">
+                                <div class="row" style=" align-items: center;">
+                                    <div class="col-12 col-md-6 col-lg-6 col-sm-12" style="padding: 3%;">
+                                        <h3 style="padding-top:10px;color: rgb(8, 6, 133);text-align: left;">
+                                            <span class="text-primary bord-ts-32"></span>Continuous Review,
+                                            Risk Assessment and
+                                            Improvement
+                                        </h3>
+                                        <div>
+                                            <p class="card-text"
+                                                style="text-align: justify;font-weight: 500;color: black;">
+                                                It is a proactive and continuous process that helps you
+                                                respond
+                                                to change and facilitate continuous improvement in your
+                                                business cyber risk
+                                                profile. Risks change with time and circumstances. Hence the
+                                                need to monitor
+                                                them and their environments, the implementation of risk
+                                                treatment plans, the
+                                                system set up to control the risks and the established
+                                                contexts and risk
+                                                priorities.<br /> Review is a continuous process, and it
+                                                ensures the plan stays
+                                                relevant and up-to-date. The inevitable regular repetition
+                                                of the risk
+                                                management cycle is based on the review process.</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-6 col-lg-6 col-sm-12" id="ourapproach">
+                                        <img class="img-fluid" src="images/continous_review_cyber.png"
+                                            style="min-width: 100%;padding-bottom: 3%;animation-duration: 2s;padding-left: 20%;padding-top: 2%;padding-left: 20%;"
+                                            alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="container text-center" id="cyberSec" style="padding: 3%;">
+                            <div class="row" style=" align-items: center;">
+                                <div class="col-12 col-md-6 col-lg-6 col-sm-12">
+                                    <img class="img-fluid wow animate__animated animate__fadeInLeft"
+                                        src="images/cyber_security_mesh.png"
+                                        style="min-width: 100%;padding-bottom: 3%;animation-duration: 2s;padding-right: 40%;padding-left: 20%;padding-top: 2%;"
+                                        alt="">
+                                </div>
+                                <div class="col-12 col-md-6 col-lg-6 col-sm-12" style="padding: 1%;">
+                                    <h3 style="padding-top:10px;color: rgb(8, 6, 133);text-align: left;">
+                                        <span class="text-primary bord-ts-32"></span>Cybersecurity Mesh
+                                        Architecture
+                                    </h3>
+                                    <div>
+                                        <p class="card-text"
+                                            style="text-align:justify;font-weight: 500;color: black;">
+                                            Cybersecurity mesh is a collaborative ecosystem of tools and
+                                            controls to secure a modern, distributed enterprise. It
+                                            builds on a strategy of integrating composable, distributed
+                                            security tools by centralizing the data and control plane to
+                                            achieve more effective collaboration between tools.<br />
+                                            Outcomes include enhanced capabilities for detection, more
+                                            efficient responses, consistent policy, posture and playbook
+                                            management, and more adaptive and granular access control —
+                                            all of which lead to better security  
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                    data-bs-slide="prev">
+                    <i class="bi bi-chevron-left" style="color: black;font-size: large;font-weight: bolder;"></i>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                    data-bs-slide="next">
+                    <i class="bi bi-chevron-right" style="color: black;font-size: large;font-weight: bolder;"></i>
+                </button>
+                </div>
+            </section> -->
+            <!-- 
+            <section>
+                <div class="headlines">
+                    <h3 class="container"><span class="text-primary bord-ts-32"></span>Focused Insights
+                    </h3>
+                </div>
+                <div class="row">
+                    <div id="carouselExample" class="carousel slide">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div style="background-color: white;padding-left: 4%;">
+                                    <div class="container text-center" style="padding: 2%;">
+                                        <div class="row" style=" align-items: center;">
+                                            <div class="col-12 col-md-6 col-lg-6 col-sm-12" style="padding: 1%;">
+                                                <h3
+                                                    style="padding-top:10px; padding-left: 0%;color: rgb(8, 6, 133);text-align: left;">
+                                                    <span class="text-primary bord-ts-32"></span>Cyber Resilience
+                                                </h3>
+                                                <p class="card-text"
+                                                    style="text-align: justify;font-weight: 500;color: black;">Cyber
+                                                    resilience enables your organization to adapt to disruptions caused
+                                                    by cyber
+                                                    security incidents while maintaining continuous business operations.
+                                                    It emphasises
+                                                    on your ability to detect, manage, and recover from incidents.<br />
+                                                    Reduce your cyber
+                                                    risk through our practical, actionable, real-world advice and
+                                                    solutions that
+                                                    measurably improve your capability to respond to the rapidly
+                                                    evolving cyber threat
+                                                    landscape.<br /> Through Zero-Trust principles, we enable
+                                                    organizations build cyber
+                                                    resilience and enhance digital trust.
+
+                                                </p>
+                                            </div>
+                                            <div class="col-12 col-md-6 col-lg-6 col-sm-12">
+                                                <img class="img-fluid" src="images/cyber_resilience_img.png"
+                                                    style="min-width: 100%;padding-bottom: 3%;animation-duration: 2s;padding-left: 20%;padding-top: 2%;padding-left: 20%;"
+                                                    alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div style="background-color: white;padding-left: 4%;">
+                                    <div class="container text-center" style="padding: 2%;">
+                                        <div class="row" style=" align-items: center;">
+                                            <div class="col-12 col-md-6 col-lg-6 col-sm-12" style="padding: 1%;">
+                                                <h3
+                                                    style="padding-top:10px; padding-left: 0%;color: rgb(8, 6, 133);text-align: left;">
+                                                    <span class="text-primary bord-ts-32"></span>Cyber Resilience
+                                                </h3>
+                                                <p class="card-text"
+                                                    style="text-align: justify;font-weight: 500;color: black;">Cyber
+                                                    resilience enables your organization to adapt to disruptions caused
+                                                    by cyber
+                                                    security incidents while maintaining continuous business operations.
+                                                    It emphasises
+                                                    on your ability to detect, manage, and recover from incidents.<br />
+                                                    Reduce your cyber
+                                                    risk through our practical, actionable, real-world advice and
+                                                    solutions that
+                                                    measurably improve your capability to respond to the rapidly
+                                                    evolving cyber threat
+                                                    landscape.<br /> Through Zero-Trust principles, we enable
+                                                    organizations build cyber
+                                                    resilience and enhance digital trust.
+                                                </p>
+                                            </div>
+                                            <div class="col-12 col-md-6 col-lg-6 col-sm-12">
+                                                <img class="img-fluid" src="images/cyber_resilience_img.png"
+                                                    style="min-width: 100%;padding-bottom: 3%;animation-duration: 2s;padding-left: 20%;padding-top: 2%;padding-left: 20%;"
+                                                    alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div style="background-color:#ffffff;">
+                                    <div class="container text-center" id="cyberSec" style="padding: 3%;">
+                                        <div class="row" style=" align-items: center;">
+                                            <div class="col-12 col-md-6 col-lg-6 col-sm-12">
+                                                <img class="img-fluid" src="images/zero_trust_cyber (1).png"
+                                                    style="min-width: 100%;padding-bottom: 3%;animation-duration: 2s;padding-right: 20%;padding-top: 2%;"
+                                                    alt="">
+                                            </div>
+                                            <div class="col-12 col-md-6 col-lg-6 col-sm-12" style="padding: 1%;">
+                                                <h3 style="padding-top:10px;color: rgb(8, 6, 133);text-align: left;">
+                                                    <span class="text-primary bord-ts-32"></span>Zero Trust
+                                                </h3>
+                                                <div>
+                                                    <p class="card-text"
+                                                        style="text-align:justify;font-weight: 500;color: black;">
+                                                        Zero Trust is a security framework based on the belief that
+                                                        every user, device,
+                                                        and IP address accessing a resource is a threat until proven
+                                                        otherwise. Under
+                                                        the concept of “never trust, always verify,” it requires that
+                                                        security teams
+                                                        implement strict access controls and verify anything that tries
+                                                        to connect to an
+                                                        enterprise's network.<br /> It recommends organizations to
+                                                        optimize capabilities
+                                                        towards sensitive data identification, strictly enforcing access
+                                                        control,
+                                                        scrutinizing endpoints, enabling real-time threat detection,
+                                                        user behavior
+                                                        analytics and monitoring, building effective security and
+                                                        incident response
+                                                        program.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div style="background-color:white;padding: 3%;">
+                                        <div class="container text-center" style="padding-left: 2%;">
+                                            <div class="row" style=" align-items: center;">
+                                                <div class="col-12 col-md-6 col-lg-6 col-sm-12" style="padding: 3%;">
+                                                    <h3
+                                                        style="padding-top:10px;color: rgb(8, 6, 133);text-align: left;">
+                                                        <span class="text-primary bord-ts-32"></span>Continuous Review,
+                                                        Risk Assessment and
+                                                        Improvement</h3>
+                                                    <div>
+                                                        <p class="card-text"
+                                                            style="text-align: justify;font-weight: 500;color: black;">
+                                                            It is a proactive and continuous process that helps you
+                                                            respond
+                                                            to change and facilitate continuous improvement in your
+                                                            business cyber risk
+                                                            profile. Risks change with time and circumstances. Hence the
+                                                            need to monitor
+                                                            them and their environments, the implementation of risk
+                                                            treatment plans, the
+                                                            system set up to control the risks and the established
+                                                            contexts and risk
+                                                            priorities.<br /> Review is a continuous process, and it
+                                                            ensures the plan stays
+                                                            relevant and up-to-date. The inevitable regular repetition
+                                                            of the risk
+                                                            management cycle is based on the review process.</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12 col-md-6 col-lg-6 col-sm-12" id="ourapproach">
+                                                    <img class="img-fluid" src="images/continous_review_cyber.png"
+                                                        style="min-width: 100%;padding-bottom: 3%;animation-duration: 2s;padding-left: 20%;padding-top: 2%;padding-left: 20%;"
+                                                        alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div style="background-color:white;padding: 3%;">
+                                        <div class="container text-center" style="padding-left: 2%;">
+                                            <div class="row" style=" align-items: center;">
+                                                <div class="col-12 col-md-6 col-lg-6 col-sm-12" id="ourapproach">
+                                                    <img class="img-fluid wow animate__animated animate__fadeInLeft"
+                                                        src="images/cyber_security_mesh.png"
+                                                        style="min-width: 100%;padding-bottom: 3%;animation-duration: 2s;padding-right: 40%;padding-left: 20%;padding-top: 2%;"
+                                                        alt="">
+                                                </div>
+                                                <div class="col-12 col-md-6 col-lg-6 col-sm-12" style="padding: 3%;">
+                                                    <h3
+                                                        style="padding-top:10px;color: rgb(8, 6, 133);text-align: left;">
+                                                        <span class="text-primary bord-ts-32"></span>Cybersecurity Mesh
+                                                        Architecture</h3>
+                                                    <div>
+                                                        <p class="card-text"
+                                                            style="text-align: justify;font-weight: 500;color: black;">
+                                                            Cybersecurity mesh is a collaborative ecosystem of tools and
+                                                            controls to secure a modern, distributed enterprise. It
+                                                            builds on a strategy of integrating composable, distributed
+                                                            security tools by centralizing the data and control plane to
+                                                            achieve more effective collaboration between tools.<br />
+                                                            Outcomes include enhanced capabilities for detection, more
+                                                            efficient responses, consistent policy, posture and playbook
+                                                            management, and more adaptive and granular access control —
+                                                            all of which lead to better security.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev text-dark" type="button" data-bs-target="#carouselExample"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon text-dark" aria-hidden="true"></span>
+                            <span class="visually-hidden text-dark">Previous</span>
+                        </button>
+                        <button class="carousel-control-next  text-dark" type="button" data-bs-target="#carouselExample"
+                            data-bs-slide="next">
+                            <i class="bi bi-chevron-right"></i>
+                            <span class="visually-hidden text-dark">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </section> -->
+
+            <!-- <section style="color: #01062e;">
+                <div class="headlines">
+                    <h3 class="container"><span class="text-primary bord-ts-32"></span>Focused Insights
+                    </h3>
+                </div>   
+            </section> -->
+            <section class="serv">
+                <div class="row">
+                    <div class="col">
+                        <div class="headlines">
+                            <h3 class="container"><span class="text-primary bord-ts-32"></span>Our Approach
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <p style="font-weight: 600;">
+                            Our
+                            holistic cybersecurity approach provides deep insights into your cyber assurance decisions.
+                            This includes your cyber protection activities, architectural decisions, selection and usage
+                            of technologies regarding cyber security, resiliency, and the ability to address ongoing
+                            adversary activities.</p>
+                    </div>
+                    <div class="row" id="servweoffer"
+                        style="padding-left: 300px;padding-right: 300px;padding-top: 30px;padding-bottom: 50px;">
+                        <img id="image" src="images/activities.png" style="width:100%;height:auto;">
                     </div>
                 </div>
             </section>
@@ -911,12 +1643,28 @@
                 <div class="row">
                     <div class="col">
                         <div class="headlines">
-                            <h3 class="container"><span class="text-primary bord-ts-32"></span>Services We Offer
+                            <h3 class="container"><span class="text-primary bord-ts-32"></span>Our Services
                             </h3>
                         </div>
                     </div>
                 </div>
                 <div class="container">
+                    <div class="row">
+                        <!-- <div class="col-2" style="padding-left: 80px;padding-right: 50px;margin-bottom:20px">
+                            <img id="image" src="images/ourservice.png" style="width:100%;height:auto;">
+                        </div> -->
+                        <div class="col-12">
+                            <p style="font-weight:600">
+                                Our versatile portfolio of cybersecurity services across consulting, advisory, design
+                                and
+                                architecture, implementation, managed security services and solutions; provide cyber
+                                assurance to your digital business. It includes methodical best practice approaches that
+                                are designed to deliver better confidence with how you secure your business. Continuous
+                                review, risk assessment, monitoring and improvement builds a responsive security posture
+                                leading to cyber resilient ecosystem.
+                            </p>
+                        </div>
+                    </div>
                     <div class="row">
                         <div class="col-12 col-lg-4 col-md-6 col-sm-12">
                             <div class="card">
@@ -929,7 +1677,8 @@
                                             business-driven cyber resilient architecture(s), create sustainable
                                             solutions.</p>
                                         <a href="strategy_cybersecurity.html" class="btn align-items-left"
-                                            style="font-weight: 700;margin-top: 60px;">Learn more <i class="bi bi-arrow-right"></i></a>
+                                            style="font-weight: 700;margin-top: 60px;">Learn more <i
+                                                class="bi bi-arrow-right"></i></a>
                                     </div>
                                 </a>
                             </div>
@@ -946,8 +1695,8 @@
                                             measures. It also aligned with industry best practices and proven security
                                             services delivery models.</p>
                                         <a href="cyber_security_services.html" class="btn align-items-left"
-                                            style="font-weight: 700;margin-top: 0px;">Learn more <i class="bi bi-arrow-right"
-                                                style="font-weight: 800;"></i></a>
+                                            style="font-weight: 700;margin-top: 0px;">Learn more <i
+                                                class="bi bi-arrow-right" style="font-weight: 800;"></i></a>
                                     </div>
                                 </a>
                             </div>
@@ -962,8 +1711,8 @@
                                             strengthens governance, establishes risk-based "guard rails", integrates
                                             security into DevOps, enables automation and reduces attack surface.</p>
                                         <a href="devops_service.html" class="btn align-items-left"
-                                            style="font-weight: 700;margin-top: 60px;">Learn more <i class="bi bi-arrow-right"
-                                                style="font-weight: 800;"></i></a>
+                                            style="font-weight: 700;margin-top: 60px;">Learn more <i
+                                                class="bi bi-arrow-right" style="font-weight: 800;"></i></a>
 
                                     </div>
                                 </a>
@@ -982,8 +1731,8 @@
                                             exposure to cyber-attacks. It helps prioritize risks and address
                                             vulnerabilities based on priorities.</p>
                                         <a href="vulnerability_threat_service.html" class="btn align-items-left"
-                                            style="font-weight: 700;margin-top: 1px;">Learn more <i class="bi bi-arrow-right"
-                                                style="font-weight: 800;"></i></a>
+                                            style="font-weight: 700;margin-top: 1px;">Learn more <i
+                                                class="bi bi-arrow-right" style="font-weight: 800;"></i></a>
 
                                     </div>
                                 </a>
@@ -1000,8 +1749,8 @@
                                             enables necessary controls to effectively manage security risks, measure IAM
                                             program maturity and set a course for transformation.</p>
                                         <a href="iam_governance_cybersecurity.html" class="btn align-items-left"
-                                            style="font-weight: 700;margin-top: 60px;">Learn more <i class="bi bi-arrow-right"
-                                                style="font-weight: 800;"></i></a>
+                                            style="font-weight: 700;margin-top: 60px;">Learn more <i
+                                                class="bi bi-arrow-right" style="font-weight: 800;"></i></a>
 
                                     </div>
                                 </a>
@@ -1018,8 +1767,8 @@
                                             systems. It aligns security, risk, and business objectives to prove
                                             governance and compliance, and report a pragmatic view of risk.</p>
                                         <a href="governanceRisk_compilance.html" class="btn align-items-left"
-                                            style="font-weight: 700;margin-top: 60px;">Learn more <i class="bi bi-arrow-right"
-                                                style="font-weight: 800;"></i></a>
+                                            style="font-weight: 700;margin-top: 60px;">Learn more <i
+                                                class="bi bi-arrow-right" style="font-weight: 800;"></i></a>
 
                                     </div>
                                 </a>
@@ -1054,7 +1803,7 @@
                                     <div class="card-body">
                                         <h5 class="card-title">Data Protection and Privacy</h5>
                                         <p class="card-text">Our services incorporate a risk-based strategy with leading
-                                            data protection solutions to protect your organization’s critical data
+                                            data protection solutions to protect your organization's critical data
                                             across its lifecycle. It enables organizations to stay up-to-date with
                                             leading services in data security and privacy, as well as complying with
                                             regulation in a constantly evolving threat environment and regulatory
@@ -1072,7 +1821,7 @@
                                 <a href="cyber_threat.html" style="color: white;text-decoration: none;">
                                     <div class="card-body">
                                         <h5 class="card-title">Cyber Threat and Defense Operations</h5>
-                                        <p class="card-text" >
+                                        <p class="card-text">
                                             Our services combine technology and human expertise to establish operational
                                             approach towards addressing cybersecurity incidents. It enables threat
                                             hunting, monitoring, and incident orchestration to ensure intelligence led
@@ -1081,7 +1830,20 @@
                                         <a href="cyber_threat.html" id="toolstech" class="btn align-items-left"
                                             style="font-weight: 700;">Learn more <i class="bi bi-arrow-right"
                                                 style="font-weight: 800;"></i></a>
-
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-4 col-md-6 col-sm-12">
+                            <div class="card">
+                                <!-- <img class="card-img-top" src="image.jpg" alt="Card image cap"> -->
+                                <a href="penetration_testing_service1.html" style="color: white;text-decoration: none;">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Penetration Testing 1</h5>
+                                        <p class="card-text"></p>
+                                        <a href="penetration_testing_service1.html" class="btn align-items-left"
+                                            style="font-weight: 700;">Learn more <i class="bi bi-arrow-right"
+                                                style="font-weight: 800;"></i></a>
                                     </div>
                                 </a>
                             </div>
@@ -1564,9 +2326,10 @@
                     </button>
                 </div>
             </section> -->
-            <section class="tools" >
+            <section class="tools">
                 <div class="headlines">
-                    <h3 class="container"><span class="text-primary bord-ts-32"></span>Tools & Technologies
+                    <h3 class="container"><span class="text-primary bord-ts-32"></span>Tools & Technologies,
+                        Collaborative Partnerships
                     </h3>
                 </div>
                 <div class="container">
@@ -1663,6 +2426,15 @@
                         </div>
                         <div class="col-2 tool" id="contact" style="padding-top: 35px;">
                             <img class="img-fluid" src="images/shared_Assessments.png">
+                        </div>
+                        <div class="col-2 tool" id="contact" style="padding-top: 35px;">
+                            <img class="img-fluid" src="images/CoreStack.png">
+                        </div>
+                        <div class="col-2 tool" id="contact" style="padding-top: 35px;">
+                            <img class="img-fluid" src="images/paloalto.png">
+                        </div>
+                        <div class="col-2 tool" id="contact" style="padding-top: 35px;">
+                            <img class="img-fluid" src="images/delinea.png">
                         </div>
                         <!-- <div class="col-2 tool" style="padding-top: 15px;">
                             <img class="img-fluid" src="images/azure_devops.png">
@@ -1781,14 +2553,13 @@
                 </div>
             </section> -->
             <!-- ======================================================== -->
-            <section  class="contact" style="margin-top: 20px;">
+            <section class="contact" style="margin-top: 20px;">
                 <div class="headlines">
-                    <h3 class="container"><span class="text-primary bord-ts-32"></span>Contact
-                    </h3>
+                    <h3 class="container"><span class="text-primary bord-ts-32"></span>Get In Touch</h3>
                 </div>
                 <div class="container">
                     <div class="row">
-                        <div class="col-lg-5 d-flex align-items-stretch" >
+                        <!-- <div class="col-lg-5 d-flex align-items-stretch" >
                             <div class="info" style="border-radius: 3px;">
                                 <div class="address">
                                     <i class="bi bi-geo-alt"></i>
@@ -1813,9 +2584,15 @@
                                     width="500" height="300" style="border:0;" allowfullscreen="" loading="lazy"
                                     referrerpolicy="no-referrer-when-downgrade"></iframe>
                             </div>
+                        </div> -->
+
+                        <div class="col-lg-5 d-flex align-items-stretch">
+                            <h1 style="color:white;font-weight: 300;padding-top: 110px;"><span>Simply fill in your
+                                    details to request a </span><span style="font-weight: bold;">FREE</span><span>
+                                    callback</span> </h1>
                         </div>
-                        <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch" >
-                            <!-- <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                        <div class="col-lg-6 mt-5 mt-lg-0 d-flex align-items-stretch">
+                            <div action="forms/contact.php" method="post" role="form" class="php-email-form">
                                 <div class="row">
                                     <div class="form-group col-md-6">
                                         <label class="details" for="name">Your Name</label>
@@ -1832,7 +2609,7 @@
                                 </div>
                                 <div class="form-group">
                                     <label class="details" for="name">Message</label>
-                                    <textarea class="form-control" name="message" rows="10" required></textarea>
+                                    <textarea class="form-control" name="message" rows="5" required></textarea>
                                 </div>
                                 <div class="my-3">
                                     <div class="loading">Loading</div>
@@ -1840,15 +2617,10 @@
                                     <div class="sent-message">Your message has been sent. Thank you!</div>
                                 </div>
                                 <div class="text-center"><button type="submit">Send Message</button></div>
-                            </form> -->
-                            <iframe width="740px" height="780px" 
-                                src="https://forms.office.com/Pages/ResponsePage.aspx?id=x26rR1WQgkyKyosK4arQwJOBKs4ZIcVPtzP4Nz-3VPhUMllFMzlXMFJTTVZBU0JFUTY1MTNFRzI2US4u&embed=true"
-                                frameborder="0" marginwidth="0" marginheight="0"
-                                style="border: none; max-width:100%; max-height:100vh;border-radius: 3px;" allowfullscreen
-                                webkitallowfullscreen mozallowfullscreen msallowfullscreen> </iframe>
+                            </div>
                         </div>
             </section>
-            <section class="section1 background-parallax-container">
+            <!-- <section class="section1 background-parallax-container">
                 <div class="line">
                     <div class="margin2x">
                         <div class="m-12 l-5 offset-lg-1 text-left">
@@ -1865,64 +2637,130 @@
                     </div>
                 </div>
                 <div class="background-parallax" style="background-image:url(img/parallax-06.jpg)"></div>
-            </section>
+            </section> -->
         </article>
     </main>
     <footer>
-        <div class="background-primary padding text-center"> <a href="/"><i
-                    class="icon-facebook_circle text-size-30 text-white"></i></a> <a href="/"><i
-                    class="icon-twitter_circle text-size-30 text-white"></i></a> <a href="/"><i
-                    class="icon-google_plus_circle text-size-30 text-white"></i></a> <a href="/"><i
-                    class="icon-instagram_circle text-size-30 text-white"></i></a> <a href="/"><i
-                    class="icon-linked_in_circle text-size-30 text-white"></i></a> </div>
-        <section class="section background-dark">
-            <div class="line">
+        <!-- <div class="row">
+            <div class="col">
+                <li><a href="#">ABOUT US</a></li>
+                    <li><a href="#">CONTACT US</a></li>
+                        <li><a href="#">CAREERS</a></li>
+                            <li><a href="#">LOCATION</a></li>
+            </div> -->
+        <!-- <div class="row">
+                <div class="col text-dark"><h3>Follow our global channels</h3></div>
+                <div class="col">
+                    <div class="text-center" style="background-color: #ffffff;padding: 40px;">
+                        <a href="/"><i class="bi bi-facebook"></i></a> 
+                        <a href="/"><i class="icon-twitter_circle text-size-30 text-white"></i></a> 
+                        <a href="/"><i class="icon-google_plus_circle text-size-30 text-white"></i></a> 
+                        <a href="/"><i class="icon-instagram_circle text-size-30 text-white"></i></a> 
+                        <a href="/"><i class="icon-linked_in_circle text-size-30 text-white"></i></a>
+               </div>
+                </div>
+            </div> -->
+
+        <!-- </div> -->
+
+        <section class="section background-white"
+            style="background-color: rgb(228, 228, 229);color: black;margin-top:30px;">
+            <div class="line bottom">
                 <div class="margin2x">
-                    <div class="stext-size-l150 ">
+                    <div class="stext-size-l150 bottom_nav">
                         <div class="s-12 m-6 l-4 xl-3">
-                            <h4 class="text-white text-strong margin-m-top-30">Services</h4> <a
-                                class="text-primary-hover" href="csor.html">Oracle Fusion</a><br> <a
-                                class="text-primary-hover" href="appmod.html">Application Services &
-                                Modernization</a><br> <a class="text-primary-hover" href="cloud.html">Cloud &
-                                DevOps</a><br> <a class="text-primary-hover" href="daai.html">Data & Analytics</a><br>
-                            <a class="text-primary-hover" href="qe.html">Enterprise Testing</a><br> <a
-                                class="text-primary-hover" href="cs.html">Cyber Security</a><br> <a
-                                class="text-primary-hover" href="sn.html">Service Now</a><br>
+                            <h4 class="text-dark text-strong margin-m-top-30">Services</h4>
+                            <li><a class="text-primary-hover text-dark" href="csor.html">Oracle Fusion</a></li>
+                            <li> <a class="text-primary-hover text-dark" href="appmod.html">Application Services &
+                                    Modernization</a></li>
+                            <li><a class="text-primary-hover text-dark" href="cloud.html">Cloud & DevOps</a></li>
+                            <li><a class="text-primary-hover text-dark" href="daai.html">Data & Analytics</a></li>
+                            <li><a class="text-primary-hover text-dark" href="qe.html">Enterprise Testing</a></li>
+                            <li><a class="text-primary-hover text-dark" href="cs.html">Cyber Security</a></li>
+                            <li><a class="text-primary-hover text-dark" href="sn.html">Service Now</a></li>
+                            <h4 class="text-dark text-strong margin-m-top-30" style="padding-top: 20px;">Contact Us</h4>
+                            <a class="text-primary-hover text-dark" href="#"><i class="bi bi-envelope-fill"
+                                    style="padding-right: 10px;"></i>Get In Touch</a>
                         </div>
                         <div class="s-12 m-6 l-4 xl-3">
-                            <h4 class="text-white text-strong margin-m-top-30">Industry</h4> <a
-                                class="text-primary-hover" href="sip.html">Education</a><br> <a
-                                class="text-primary-hover" href="sip.html">Hospitality</a><br> <a
-                                class="text-primary-hover" href="sip.html">Retail</a><br> <a class="text-primary-hover"
-                                href="sip.html">Banking</a><br>
+                            <h4 class="text-white text-strong margin-m-top-30 text-dark">Company</h4>
+                            <li><a class="text-primary-hover text-dark" href="about.html">About Us</a></li>
+                            <li><a class="text-primary-hover text-dark" href="career/careers.html">Join Us</a></li>
+                            <li><a class="text-primary-hover text-dark" href="#">Press</a></li>
+                            <li><a class="text-primary-hover text-dark" href="#">Events</a></li>
+                            <li><a class="text-primary-hover text-dark" href="#">Webinars</a></li>
+                            <li><a class="text-primary-hover text-dark" href="#">Innovation</a></li>
+                            <li><a class="text-primary-hover text-dark" href="#">Insights</a></li>
+                            <li><a class="text-primary-hover text-dark" href="#">Success Stories</a></li>
+
+                           
                         </div>
-                        <div class="s-12 m-6 l-4 xl-3">
-                            <h4 class="text-white text-strong margin-m-top-30">Company</h4> <a
-                                class="text-primary-hover" href="about.html">About Us</a><br> <a
-                                class="text-primary-hover" href="career/careers.html">Join Us</a><br> <a
-                                class="text-primary-hover" href="sitemap.html">Site Map</a><br>
-                        </div>
-                        <div class="s-12 m-6 l-4 xl-3">
-                            <h4 class="text-white text-strong margin-m-top-30">Contact Us</h4> <a
-                                class="text-orange-hover" href="tel:08019523641"><i
-                                    class="icon-sli-screen-smartphone text-orange"></i> +91 80195 23641</a><br> <a
-                                class="text-orange-hover" href="mailto:info@arshaa.com"><i
-                                    class="icon-sli-mouse text-orange"></i> info@arshaa.com</a><br> <a
-                                class="text-orange-hover" href="mailto:careers@arshaa.com"><i
-                                    class="icon-sli-mouse text-orange"></i> careers@arshaa.com</a>
+                        <div class="s-12 m-6 l-4 xl-6">
+                            <!-- <iframe width="740px" height="480px"
+                                src="https://forms.office.com/Pages/ResponsePage.aspx?id=x26rR1WQgkyKyosK4arQwJOBKs4ZIcVPtzP4Nz-3VPhUMllFMzlXMFJTTVZBU0JFUTY1MTNFRzI2US4u&embed=true"
+                                frameborder="0" marginwidth="0" marginheight="0"
+                                style="border: none; max-width:100%; max-height:100vh;border-radius: 3px;"
+                                allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen> </iframe> -->
+                                <section class="section2 background-image"
+                                style="padding-top:10px; background-image:url(img/parallax-02.jpg)" id="form">
+                                <div class="s-12 m-12 offset-lg-3 l-6 text-center" style="padding-bottom:20px;">
+                                    <h3 class="text-strong text-size-30 margin-bottom-40 text-center" style="color:#ff6600;">Contact
+                                        Form</h3>
+                                    <form name="contactForm" class="customform text-white" method="post" enctype="multipart/form-data">
+                                        <div class="line">
+                                            <div class="margin">
+                                                <div class="s-12 m-12 l-6"> <input name="email" class="required email"
+                                                        placeholder="Your e-mail" title="Your e-mail" type="text" /> </div>
+                                                <div class="s-12 m-12 l-6"> <input name="name" class="name" placeholder="Your name"
+                                                        title="Your name" type="text" /> </div>
+                                            </div>
+                                        </div>
+                                        <div class="line">
+                                            <div class="s-12"> <input name="subject" class="required subject" placeholder="Subject"
+                                                    title="Subject" type="text" />
+                                                <p class="subject-error form-error">Please enter your subject.</p>
+                                            </div>
+                                            <div class="s-12"> <textarea name="message" class="required message"
+                                                    placeholder="Your message" rows="3"></textarea>
+                                                <p class="message-error form-error">Please enter your message.</p>
+                                            </div>
+                                            <div class="s-12"><button class="button border-radius text-white background-primary"
+                                                    type="submit">Submit Button</button></div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </section>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <div class="background-dark">
-            <hr class="break margin-top-bottom-0" style="border-color: #777;">
+        <div>
+            <hr class="break margin-top-bottom-0" style="border-color: #777;font-weight: 400;opacity: 0.7;">
         </div>
-        <section class="padding-2x background-dark full-width">
-            <div class="full-width">
-                <div class="s-12 l-12">
-                    <p class="text-size-12 margin-bottom-0">© All Rights Reserved 2022 - arshaa technologies pvt. ltd.
-                    </p>
+        <section style="padding-bottom: 40px;">
+            <div class="privacy">
+                <div class="row">
+                    <div class="col-9" style="padding-top: 30px;">
+                        <p class="text-size-13 margin-bottom-0 text-dark text-center" style="font-weight: 500;">© 2023
+                            arshaa technologies <span class="alert"></span>|<span class="alert"></span><a
+                                href="privacy.html">Privacy policy</a> <span class="alert"></span>|<span
+                                class="alert"></span> Terms <span class="alert"></span>|<span class="alert"></span>
+                            Cookie Notice <span class="alert"></span>|<span class="alert"></span><a
+                                href="sitemap.html">Sitemap</a> <span class="alert"></span>|<span class="alert"></span>
+                            Corporate Information
+                        </p>
+                    </div>
+                    <div class="col-3">
+                        <h5 class="text-dark" style="font-weight: 400;padding-top: 10px;">Follow our global channels :
+                        </h5>
+                        <div class="text-left global">
+                            <a href="/"><i class="fa-brands fa-square-facebook global"></i></a>
+                            <a href="/"><i class="fa-brands fa-square-twitter global"></i></a>
+                            <a href="/"><i class="fa-brands fa-linkedin global"></i></a>
+                            <a href="/"><i class="bi bi-youtube global"></i></a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>

@@ -2090,7 +2090,7 @@ blockquote cite {
   color: #999;
 }
 hr.break {
-  border-top: 1px dotted #454545;
+  border-top: 1px linen #454545;
   background: none!important;
   background-color: none!important;
 }  
@@ -2108,7 +2108,7 @@ hr.break-small {
 hr.break {
   background: none!important;
   background-color: none!important;
-  border-top: 1px dashed #454545;
+  border-top: 1px lightblue #454545;
 }
 hr.break.background-white, .primary-color-white hr.break-small.background-primary {
   background: none!important;
@@ -3039,7 +3039,7 @@ font-weight: 800;
   margin-right: 5px;
 }
 .section2{
-  background-color: #e4e2e2;
+  background-color:white;
   padding: 0%;
 }
 .section{
@@ -3329,6 +3329,17 @@ button {
   color: rgb(248, 248, 250);
   font-family: Gordita,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif;;
 }
+.headlines li{
+  color: rgb(11, 11, 11);
+  font-weight: 400;
+  font-family: Gordita,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif;;
+}
+.textlist{
+  font-weight: 500;
+  font-size: medium;
+  word-spacing: 5px;
+  margin-top: 8px;
+}
 body.cybersecurity{
   /* font-family: 'Courier New', Courier, monospace; */
   font-family: "Mona Sans","Mona Sans Header Fallback",-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
@@ -3411,8 +3422,24 @@ color: white;
 }
 /* ====================vertical line======== */
 .vl {
-  border-left: 1.8px solid rgb(7, 1, 81);
+  border-left: 1.8px solid rgb(8, 1, 81);
   height: 30px;
+  padding-left: 15px;
+  margin-left: 55px;
+}
+.vl_long {
+  border-left: 1px solid rgb(182, 181, 181);
+  height: 370px;
+  margin-top: 20px;
+}
+.vl_site {
+  border-left: 1.0px solid rgb(133, 132, 132);
+  height: 100px;
+}
+.hr {
+  border-left: 1.8px solid rgb(8, 1, 81);
+  height: 2px;
+  width: 200px;
   padding-left: 15px;
   margin-left: 55px;
 }
@@ -3424,6 +3451,7 @@ color: white;
 
 .strategy_serv{
   --animate-duration: 2s;
+  background-color: #eeefef;
 }
  .strategy_serv .card {
   position: relative;
@@ -3432,7 +3460,7 @@ color: white;
   margin-bottom: 3%;
   padding-bottom: 20px;
   min-height: 570px;
-  background-color: #f1f1f1;
+  background-color: #ffffff;
 }
 .strategy_serv .card-body {
 padding: 6%;
@@ -3454,7 +3482,7 @@ color: rgb(251, 250, 250);
   transform: scale(1.2);
 }
 .strategy_serv h5{
-  color: rgb(255, 166, 0);
+  color: #222A35;
   font-weight: 800;
   padding: 1%;
   font-size:larger;
@@ -3504,6 +3532,13 @@ color: rgb(251, 250, 250);
   color: white;
 }
 
+.maturity_assessment_top{
+  padding: 100px;
+}
+.maturity_assessment_top h1{
+  font-weight: 800;
+}
+
 /* ===============sample menu styles=============== */
 .sticky-side-nav.fetch-loaded.nav-generated {
   visibility: visible;
@@ -3523,8 +3558,317 @@ color: rgb(251, 250, 250);
   z-index: -1;
   /* position: absolute; */
 }
+.strategy_content_dec .card{
+  min-height: 200px;
+}
+.strategy_content_dec .card-title{
+  color: rgb(19, 1, 73);
+  font-weight: 600;
+}
+.strategy_content_dec p{
+  font-weight: 500;
+}
+.strategy_content_dec .card {
+  padding: 5px 5px 0px 0px;
+  background: linear-gradient(270deg,#ff8c00 5px,transparent 0) 100% 0,linear-gradient(180deg,#ff8c00 5px,transparent 0) 100% 0;
+  background-repeat: no-repeat;
+  background-size: 56px 40px;
+}
 
-html{
-  scroll-behavior: smooth;
-  scroll-padding-top: 500px;
+.threatmodeling_insights p{
+  font-weight: 500;
+}
+.threatmodeling_insights .card{
+  min-height:360px;
+  padding:20px;
+  /* background-color:rgb(245, 245, 245); */
+}
+.threatmodeling_insights .card-body{
+  padding-left:20px;
+}
+.threatmodeling_insights .bordershade-darkR{
+  margin:10px;
+}
+
+
+.strategy_content_measures p, .strategy_content_outcome p, .strategy_content_domain p, .strategy_content_need p, .strategy_content_assurance p {
+  font-weight: 500;
+}
+.strategy_content_measures h6{
+  font-weight: 600;
+  color: #023a64;
+  font-size:medium;
+}
+.strategy_content_measures p{
+  margin: 10px;
+}
+.strategy_content_measures{
+  background-color:  rgb(255, 255, 255);
+ padding-bottom: 30px;
+}
+
+.maturity_assessment_top div {
+  display: block;
+  width: 500px;
+  height: 200px;
+  margin: 0 auto;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(120, 50, 80, 0.6) 0%,
+      rgba(120, 50, 80, 0.6) 100%
+    ),
+    url("/images/cyber_stategic_assessment.jpg");
+}
+
+.arrow_down:hover{
+  transform: rotate(95deg);
+  -webkit-transform: rotate(90deg);
+}
+
+.dropdown i:hover{
+transform: rotate(45deg);
+}
+
+.global i{
+  padding:10px;
+  font-size: 30px;
+}
+.global{
+  color: #00AEEF;
+}
+.bottom a{
+  margin-bottom:20px;
+  font-weight: 500;
+}
+.privacy a{
+  font-weight:400
+}
+.bottom_nav li{
+  padding: 5px;
+  font-weight: 400;
+}
+.bottom_nav a{
+  padding: 5px;
+  font-weight: 500;
+  font-size: medium;
+}
+.Penetration_delivery p{
+  font-weight: 500;
+  color: #000;
+}
+.penetration_service_cyber h5{
+  color: #000;
+  font-weight: 800;
+}
+.penetration_service_cyber p{
+  font-weight: 500;
+}
+.penetration_challenges p{
+  font-weight: 500;
+}
+.penetration_need p, .penetration_insights p{
+  font-weight: 500;
+}
+.penetration_need h5{
+  font-weight: 600;
+}
+.penetration_insights p{
+  padding-top: 10px;
+}
+/* ========================== card hover styles============== */
+.penetration_service_cyber{
+  --animate-duration: 2s;
+}
+ .penetration_service_cyber .card {
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  margin-bottom: 3%;
+  padding-bottom: 20px;
+}
+.penetration_service_cyber .card-body {
+padding: 6%;
+}
+.penetration_service_cyber .card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 5px 15px rgba(7, 7, 7, 0.3);
+}
+.penetration_service_cyber .card:hover a{
+  color: #f86604;
+}
+.penetration_service_cyber .card:hover {
+  background-color: #e5e5e5;
+  color: rgb(10, 10, 10);
+}
+.penetration_service_cyber .card:hover h5{
+  color: rgb(115, 19, 19);
+}
+.alert{
+  padding: 5px;
+}
+
+/* ==========================search field========== */
+form {
+  display: inline-block;
+  position: relative;
+}
+
+input[type="text"] {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.search-container button[type="submit"] {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 10px;
+  background-color: #ccc;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.insights h2{
+  font-weight: 700;
+  color: #040e61;
+}
+.insights p{
+  font-weight: 500;
+  padding-bottom: 5px;
+}
+
+.personal_data h2{
+  font-weight: 700;
+  padding-bottom: 5px;
+  color: #040e61;
+}
+.personal_data p{
+  font-weight: 500;
+  padding-bottom: 5px;
+}
+.collect h2{
+  font-weight: 700;
+  padding-bottom: 5px;
+  color: #040e61;
+}
+.collect p{
+  font-weight: 500;
+  padding-bottom: 5px;
+}
+.strategy_content_methodology h2{
+  font-weight: 700;
+  padding-bottom: 5px;
+  color: #040e61;
+}
+.strategy_content_insights p{
+  font-weight: 500;
+  padding-bottom: 5px;
+}
+.safeguard h2{
+  font-weight: 700;
+  padding-bottom: 5px;
+  color: #040e61;
+}
+.safeguard p{
+  font-weight: 500;
+  padding-bottom: 5px;
+}
+.service_map h2{
+  color: #000;
+  font-weight: 700;
+}
+.service_map a:hover{
+  color: #2000ef;
+}
+.service_map li a{
+  color: #000;
+}
+.service_map li a{
+  font-weight: 400;
+  font-size:14px;
+}
+.service_map li a ul li a{
+color: #000;
+}
+.service_map li {
+ padding-top: 8px;
+}
+.sub_sitemaplink a{
+  color: #000;
+}
+.cyber_resilience_slide{
+  min-height: 410px;
+  justify-content: center;
+}
+.cyber_slide_item{
+  padding: 20px;
+  background-color: #f4f6f6;
+}
+.cyber_resilience_slide.cyber_slide_item{
+  background-color: rgb(238, 238, 238);
+}
+.keyfactors h2{
+  font-weight: 600;
+  color:black;
+}.keyfactors p{
+  font-weight: 500;
+}
+.keyfactors h3{
+  font-weight: 400;
+}
+.key_feature{
+ padding:30px
+}
+.key_feature p{
+  font-weight: 400;
+}
+.key_feature h3{
+  color:rgb(253, 124, 49);
+  font-weight: 800;
+}
+@media(max-width:768px) {
+  .abcd {
+min-height: 700px;
+  }
+}
+@media(min-width:1050px) {
+  .abcd {
+min-height: 400px;
+  }
+}
+@media(max-width: 2000px) {
+  #initial {
+      display: none;
+  }
+}
+@media(max-width: 430px) {
+  #initial {
+      display: flex;
+  }
+}
+@media(max-width: 430px) {
+  #initials {
+      display: none;
+  }
+}
+.simpletext{
+  font-weight: 500;
+  color: #000;
+}
+.bi6{
+  margin-right: 20px;
+}
+.standards h5{
+  font-weight: 700;
+}
+.standards li{
+  color: #000;
+  font-weight: 500;
+  padding-top: 10px;
+}
+.standards{
+  padding-top: 20px;
 }
